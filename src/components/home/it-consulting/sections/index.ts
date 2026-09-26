@@ -1,0 +1,11 @@
+export { default as ItConsultingHero } from "./Hero";
+export { default as ItConsultingAbout } from "./About";
+export { default as ItConsultingFeature } from "./Feature";
+export { default as ItConsultingVideo } from "./Video";
+export { default as ItConsultingPortfolio } from "./Portfolio";
+export { default as ItConsultingService } from "./Service";
+export { default as ItConsultingTeam } from "./Team";
+export { default as ItConsultingBrandLogo } from "./BrandLogo";
+export { default as ItConsultingTestimonial } from "./Testimonial";
+export { default as ItConsultingFaq } from "./Faq";
+export { default as ItConsultingCta } from "./Cta";

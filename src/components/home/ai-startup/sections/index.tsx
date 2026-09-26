@@ -1,0 +1,11 @@
+export { default as AiStartupHero } from "./AiStartupHero";
+export { default as AiStartupAbout } from "./AiStartupAbout";
+export { default as AiStartupBanner } from "./AiStartupBanner";
+export { default as AiStartupService } from "./AiStartupService";
+export { default as AiStartupTextSlider } from "./AiStartupTextSlider";
+export { default as AiStartupPortfolio } from "./AiStartupPortfolio";
+export { default as AiStartupPricing } from "./AiStartupPricing";
+export { default as AiStartupTestimonial } from "./AiStartupTestimonial";
+export { default as AiStartupFaq } from "./AiStartupFaq";
+export { default as AiStartupCta } from "./AiStartupCta";
+export { default as AiStartupBlog } from "./AiStartupBlog";

@@ -1,0 +1,10 @@
+export { default as CreativeAgencyHero } from "./CreativeAgencyHero";
+export { default as CreativeAgencyAbout } from "./CreativeAgencyAbout";
+export { default as CreativeAgencyPortfolio } from "./CreativeAgencyPortfolio";
+export { default as CreativeAgencyServices } from "./CreativeAgencyServices";
+export { default as CreativeAgencyBanner } from "./CreativeAgencyBanner";
+export { default as CreativeAgencyTestimonial } from "./CreativeAgencyTestimonial";
+export { default as CreativeAgencyCounter } from "./CreativeAgencyCounter";
+export { default as CreativeAgencyAwards } from "./CreativeAgencyAwards";
+export { default as CreativeAgencyBrands } from "./CreativeAgencyBrands";
+export { default as CreativeAgencyBlog } from "./CreativeAgencyBlog";

@@ -1,0 +1,12 @@
+export { default as SeoAgencyHero } from "./SeoAgencyHero";
+export { default as SeoAgencyTrustedBrand } from "./SeoAgencyTrustedBrand";
+export { default as SeoAgencyStep } from "./SeoAgencyStep";
+export { default as SeoAgencyBrand } from "./SeoAgencyBrand";
+export { default as SeoAgencyVideo } from "./SeoAgencyVideo";
+export { default as SeoAgencyService } from "./SeoAgencyService";
+export { default as SeoAgencyProject } from "./SeoAgencyProject";
+export { default as SeoAgencyPrice } from "./SeoAgencyPrice";
+export { default as SeoAgencyFaq } from "./SeoAgencyFaq";
+export { default as SeoAgencyTextSlider } from "./SeoAgencyTextSlider";
+export { default as SeoAgencyTestimonial } from "./SeoAgencyTestimonial";
+export { default as SeoAgencyBlog } from "./SeoAgencyBlog";

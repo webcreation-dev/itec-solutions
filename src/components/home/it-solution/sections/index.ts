@@ -1,0 +1,12 @@
+export { default as ITSolutionHero } from "./ITSolutionHero";
+export { default as ITSolutionBanner } from "./ITSolutionBanner";
+export { default as ITSolutionAbout } from "./ITSolutionAbout";
+export { default as ITSolutionCounter } from "./ITSolutionCounter";
+export { default as ITSolutionService } from "./ITSolutionService";
+export { default as ITSolutionProcess } from "./ITSolutionProcess";
+export { default as ITSolutionPortfolio } from "./ITSolutionPortfolio";
+export { default as ITSolutionTeam } from "./ITSolutionTeam";
+export { default as ITSolutionTestimonial } from "./ITSolutionTestimonial";
+export { default as ITSolutionGallery } from "./ITSolutionGallery";
+export { default as ITSolutionBlog } from "./ITSolutionBlog";
+export { default as ITSolutionCta } from "./ITSolutionCta";

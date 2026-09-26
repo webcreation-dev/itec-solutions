@@ -1,0 +1,12 @@
+export { default as DigitalAgencyHero } from "./DigitalAgencyHero";
+export { default as DigitalAgencyAbout } from "./DigitalAgencyAbout";
+export { default as DigitalAgencyBrand } from "./DigitalAgencyBrand";
+export { default as DigitalAgencyService } from "./DigitalAgencyService";
+export { default as DigitalAgencyVideo } from "./DigitalAgencyVideo";
+export { default as DigitalAgencyPortfolio } from "./DigitalAgencyPortfolio";
+export { default as DigitalAgencyCounter } from "./DigitalAgencyCounter";
+export { default as DigitalAgencyAward } from "./DigitalAgencyAward";
+export { default as DigitalAgencyTextSlide } from "./DigitalAgencyTextSlide";
+export { default as DigitalAgencyTestimonial } from "./DigitalAgencyTestimonial";
+export { default as DIgitalAgencyBanner } from "./DIgitalAgencyBanner";
+export { default as DigitalAgencyBlog } from "./DigitalAgencyBlog";

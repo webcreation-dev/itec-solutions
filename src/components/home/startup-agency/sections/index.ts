@@ -1,0 +1,12 @@
+export { default as StartupAgencyHero } from "./StartupAgencyHero";
+export { default as StartupAgencyBrand } from "./StartupAgencyBrand";
+export { default as StartupAgencyService } from "./StartupAgencyService";
+export { default as StartupAgencyAbout } from "./StartupAgencyAbout";
+export { default as StartupAgencyProcess } from "./StartupAgencyProcess";
+export { default as StartupAgencyPortfolio } from "./StartupAgencyPortfolio";
+export { default as StartupAgencyTechnology } from "./StartupAgencyTechnology";
+export { default as StartupAgencyTeam } from "./StartupAgencyTeam";
+export { default as StartupAgencyBanner } from "./StartupAgencyBanner";
+export { default as StartupAgencyTestimonial } from "./StartupAgencyTestimonial";
+export { default as StartupAgencyBlog } from "./StartupAgencyBlog";
+export { default as StartupAgencyCta } from "./StartupAgencyCta";

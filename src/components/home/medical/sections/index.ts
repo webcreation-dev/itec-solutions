@@ -1,0 +1,12 @@
+export { default as MedicalHero } from "./MedicalHero";
+export { default as MedicalFeature } from "./MedicalFeature";
+export { default as MedicalAbout } from "./MedicalAbout";
+export { default as MedicalService } from "./MedicalService";
+export { default as MedicalPortfolio } from "./MedicalPortfolio";
+export { default as MedicalFaq } from "./MedicalFaq";
+export { default as MedicalTextSlider } from "./MedicalTextSlider";
+export { default as MedicalVideo } from "./MedicalVideo";
+export { default as MedicalTestimonial } from "./MedicalTestimonial";
+export { default as MedicalCounter } from "./MedicalCounter";
+export { default as MedicalFunfact } from "./MedicalFunfact";
+export { default as MedicalBlog } from "./MedicalBlog";

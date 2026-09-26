@@ -1,0 +1,11 @@
+export { default as ShopModernProductHero } from "./ShopModernProductHero";
+export { default as ShopModernProductBanner } from "./ShopModernProductBanner";
+export { default as ShopModernProductCategory } from "./ShopModernProductCategory";
+export { default as ShopModernProduct } from "./ShopModernProduct";
+export { default as ShopModernProductSlider } from "./ShopModernProductSlider";
+export { default as ShopModernTrending } from "./ShopModernTrending";
+export { default as ShopModernBestSeller } from "./ShopModernBestSeller";
+export { default as ShopModernTestimonial } from "./ShopModernTestimonial";
+export { default as ShopModernBlog } from "./ShopModernBlog";
+export { default as ShopModernFeature } from "./ShopModernFeature";
+export { default as ShopModernInstagram } from "./ShopModernInstagram";

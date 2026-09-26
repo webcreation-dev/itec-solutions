@@ -1,0 +1,14 @@
+export { default as PlumbingServiceHero } from "./PlumbingServiceHero";
+export { default as PlumbingServiceTextSlider } from "./PlumbingServiceTextSlider";
+export { default as PlumbingServiceTextAbout } from "./PlumbingServiceTextAbout";
+export { default as PlumbingServiceArea } from "./PlumbingServiceArea";
+export { default as PlumbingServiceMapArea } from "./PlumbingServiceMapArea";
+export { default as PlumbingServiceCounter } from "./PlumbingServiceCounter";
+export { default as PlumbingServicePortfolio } from "./PlumbingServicePortfolio";
+export { default as PlumbingServiceTextMoving } from "./PlumbingServiceTextMoving";
+export { default as PlumbingServiceSkill } from "./PlumbingServiceSkill";
+export { default as PlumbingServiceFaq } from "./PlumbingServiceFaq";
+export { default as PlumbingServiceTestimonial } from "./PlumbingServiceTestimonial";
+export { default as PlumbingServiceBannerThumb } from "./PlumbingServiceBannerThumb";
+export { default as PlumbingServiceBlog } from "./PlumbingServiceBlog";
+export { default as PlumbingServiceCta } from "./PlumbingServiceCta";

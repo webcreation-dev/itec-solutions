@@ -1,0 +1,12 @@
+export { default as WebDesignAgencyHero } from "./WebDesignAgencyHero";
+export { default as WebDesignAgencyAbout } from "./WebDesignAgencyAbout";
+export { default as WebDesignAgencySkill } from "./WebDesignAgencySkill";
+export { default as WebDesignAgencyTextSlider } from "./WebDesignAgencyTextSlider";
+export { default as WebDesignAgencyService } from "./WebDesignAgencyService";
+export { default as WebDesignAgencyBanner } from "./WebDesignAgencyBanner";
+export { default as WebDesignAgencyPortfolio } from "./WebDesignAgencyPortfolio";
+export { default as WebDesignAgencyTestimonial } from "./WebDesignAgencyTestimonial";
+export { default as WebDesignAgencyAward } from "./WebDesignAgencyAward";
+export { default as WebDesignAgencyBannerTwo } from "./WebDesignAgencyBannerTwo";
+export { default as WebDesignAgencyBlog } from "./WebDesignAgencyBlog";
+export { default as WebDesignAgencyCta } from "./WebDesignAgencyCta";

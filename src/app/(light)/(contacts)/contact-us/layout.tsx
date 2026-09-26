@@ -1,0 +1,23 @@
+import { HeaderSearch, MainHeader, MainFooter } from "@/components/layout";
+import { ClientProviders, ThemeProvider } from "@/providers";
+
+export default function ContactUsLayout({
+    children,
+}: {
+    children: React.ReactNode;
+}) {
+    return (
+        <ThemeProvider>
+            <ClientProviders>
+                <HeaderSearch />
+                <MainHeader />
+                <div id="smooth-wrapper">
+                    <div id="smooth-content">
+                        {children}
+                        <MainFooter />
+                    </div>
+                </div>
+            </ClientProviders>
+        </ThemeProvider>
+    );
+}

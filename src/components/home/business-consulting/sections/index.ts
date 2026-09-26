@@ -1,0 +1,10 @@
+export { default as BusinessConsultingHero } from "./BusinessConsultingHero";
+export { default as BusinessConsultingService } from "./BusinessConsultingService";
+export { default as BusinessConsultingAbout } from "./BusinessConsultingAbout";
+export { default as BusinessConsultingTextSlider } from "./BusinessConsultingTextSlider";
+export { default as BusinessConsultingPortfolio } from "./BusinessConsultingPortfolio";
+export { default as BusinessConsultingVideo } from "./BusinessConsultingVideo";
+export { default as BusinessConsultingFaq } from "./BusinessConsultingFaq";
+export { default as BusinessConsultingTestimonial } from "./BusinessConsultingTestimonial";
+export { default as BusinessConsultingBlog } from "./BusinessConsultingBlog";
+export { default as BusinessConsultingBrand } from "./BusinessConsultingBrand";

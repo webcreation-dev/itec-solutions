@@ -1,0 +1,9 @@
+export { default as AIAgencyHero } from "./AIAgencyHero";
+export { default as AIAgencyBrand } from "./AIAgencyBrand";
+export { default as AIAgencyFeature } from "./AIAgencyFeature";
+export { default as AIAgencyExpense } from "./AIAgencyExpense";
+export { default as AIAgencyService } from "./AIAgencyService";
+export { default as AiAgencyList } from "./AiAgencyList";
+export { default as AiAgencyTestimonial } from "./AiAgencyTestimonial";
+export { default as AiAgencyBlog } from "./AiAgencyBlog";
+export { default as AiAgencyCta } from "./AiAgencyCta";

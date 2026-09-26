@@ -1,0 +1,196 @@
+@forward '../../public/assets/css/bootstrap.css';
+@forward '../../public/assets/css/spacing.css';
+@forward '../../public/assets/css/font-awesome-pro.css';
+@forward '../../public/assets/css/swiper-gl.css';
+@forward '../../public/assets/css/effect-slicer.css';
+@forward '../../public/assets/scss/main.scss';
+@import 'react-photo-view/dist/react-photo-view.css';
+
+/* Navigation ITEC : conserver tous les liens sur une seule ligne. */
+.al-main-menu-archi nav > ul {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.al-main-menu-archi nav > ul > li {
+    margin: 0 12px;
+    white-space: nowrap;
+}
+
+.itec-header-talk,
+.itec-header-talk .btn-text,
+.itec-header-talk .btn-icon,
+.itec-header-talk .btn-icon svg,
+.itec-header-talk .btn-icon svg path {
+    color: #fff !important;
+    fill: #fff !important;
+}
+
+
+// swiper transition for slider 
+.tp-slider-transition {
+    & .swiper-wrapper {
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+    }
+    & .swiper-slide {
+        width: auto;
+    }
+}
+.error-text {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Video modal style */
+.video-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-modal-container {
+    width: 90%;
+    max-width: 1200px;
+    position: relative;
+}
+
+.video-modal-iframe {
+    width: 100%;
+    height: 70vh;
+    min-height: 500px;
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.video-modal-close {
+    position: absolute;
+    top: -50px;
+    right: 0;
+    color: white;
+    font-size: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.video-modal-close:hover {
+    transform: scale(1.2);
+}
+
+// Custom styles for the toggle switch in the pricing section
+.al-input-check {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+//construction text slider 
+.text_slide_overflow{
+    .swiper{
+        overflow: visible;
+    }
+}
+// creative agency hero section shape image
+.tp-hero-2-impact-wrap .shape-img {
+    flex: 0 0 auto;
+}
+.tp-item-anime-area .tp-portfolio-2-slider-active{
+    width: 100%!important;
+}
+//swiper slide bullet style
+.tp-service-sa-pagination,.tp-testimonial-sa-slider{
+        text-align: center;
+        & .swiper-pagination-bullet {
+            width: 10px;
+            height: 10px;
+            background: transparent;
+            border: 1px solid var(--tp-grey-2);
+            opacity: 1;
+            &-active{
+                background: var(--tp-common-nights);
+                border-color: var(--tp-common-nights);
+            }
+        }
+    }
+
+/* Premium Modal Styles */
+.modal-content {
+    background-color: #ffffff;
+    border-radius: 16px !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    border: none !important;
+    padding: 15px;
+    transition: all 0.3s ease;
+}
+
+.aleric-dark {
+    .modal-content {
+        background-color: #111111 !important;
+        color: #ffffff !important;
+        border: 1px solid #222222 !important;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    }
+    
+    .modal-header .btn-close {
+        filter: invert(1);
+        opacity: 0.8;
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    .tp-product-details-title {
+        color: #ffffff !important;
+    }
+    .tp-product-details-category {
+        color: #888888 !important;
+    }
+    .tp-product-details-price .new-price {
+        color: #2ec4b6 !important;
+    }
+    .tp-product-details-price .old-price {
+        color: #666666 !important;
+    }
+    .tp-product-details-wrapper p {
+        color: #cccccc !important;
+    }
+    .tp-product-details-wrapper h4 {
+        color: #ffffff !important;
+    }
+    
+    .tp-product-details-action-item-wrapper {
+        .tp-product-quantity {
+            background-color: #1a1a1a !important;
+            border-color: #333333 !important;
+            color: #ffffff !important;
+            span {
+                color: #ffffff !important;
+            }
+            input {
+                color: #ffffff !important;
+                background: transparent !important;
+            }
+        }
+    }
+    
+    .tp-product-details-add-to-cart-btn {
+        background-color: #ffffff !important;
+        color: #000000 !important;
+        border: 1px solid #ffffff !important;
+        &:hover {
+            background-color: transparent !important;
+            color: #ffffff !important;
+        }
+    }
+}
