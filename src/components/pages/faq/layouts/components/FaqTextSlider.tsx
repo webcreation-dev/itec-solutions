@@ -4,12 +4,12 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 
 const sliderItems = [
-    { first: "Design", second: "development" },
-    { first: "Design", second: "development" },
-    { first: "Research", second: "development" },
-    { first: "Design", second: "Wireframe" },
-    { first: "High Fidelity", second: "Design" },
-    { first: "Design", second: "development" },
+    { first: "ITEC", second: "Solutions" },
+    { first: "Ingénierie", second: "Construction" },
+    { first: "Développement", second: "immobilier" },
+    { first: "Projet", second: "durable" },
+    { first: "Concevoir", second: "réaliser" },
+    { first: "ITEC", second: "Solutions" },
 ];
 
 const FaqTextSlider = () => {

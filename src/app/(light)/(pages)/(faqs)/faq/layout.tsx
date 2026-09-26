@@ -1,4 +1,4 @@
-import { HeaderSearch, MainHeader, MainFooter } from "@/components/layout";
+import { ArchitectureFooter, ArchitectureHeader, HeaderSearch } from "@/components/layout";
 import { ClientProviders, ThemeProvider } from "@/providers";
 import { MagicCursorProvider } from "@/providers/MagicCursorProvider";
 
@@ -12,11 +12,11 @@ export default function FaqLayout({
             <ClientProviders>
                 <MagicCursorProvider className="cursor-black-bg" bgColor="black">
                     <HeaderSearch />
-                    <MainHeader />
+                    <ArchitectureHeader />
                     <div id="smooth-wrapper">
                         <div id="smooth-content">
                             {children}
-                            <MainFooter />
+                            <ArchitectureFooter />
                         </div>
                     </div>
                 </MagicCursorProvider>

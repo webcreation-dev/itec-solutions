@@ -1,5 +1,4 @@
-import { ArchitectureHeader, HeaderSearch } from "@/components/layout";
-import CreativeAgencyFooter from "@/components/layout/footers/CreativeAgencyFooter";
+import { ArchitectureFooter, ArchitectureHeader, HeaderSearch } from "@/components/layout";
 import { ClientProviders, ThemeProvider } from "@/providers";
 import { MagicCursorProvider } from "@/providers/MagicCursorProvider";
 
@@ -17,7 +16,7 @@ export default function AboutCreativeLayout({
                     <div id="smooth-wrapper">
                         <div id="smooth-content">
                             {children}
-                            <CreativeAgencyFooter />
+                            <ArchitectureFooter />
                         </div>
                     </div>
                 </MagicCursorProvider>

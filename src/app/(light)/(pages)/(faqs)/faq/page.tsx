@@ -2,8 +2,8 @@ import Faq from "@/components/pages/faq/layouts/Faq";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "FAQ - Aleric Creative Agency React Next.js Template",
-    description: "FAQ page of Aleric Creative Agency React Next.js Template",
+    title: "Mentions légales | ITEC Solutions",
+    description: "Mentions légales du site ITEC Solutions.",
 };
 
 const page = () => {

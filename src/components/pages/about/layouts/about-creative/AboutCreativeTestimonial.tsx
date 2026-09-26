@@ -9,19 +9,19 @@ import { useVideoModal } from "@/providers/VideoProvider";
 
 const testimonials = [
     {
-        quote: "Awesome! Working with Aleric has transformed our operations. The team is truly exceptional!",
-        name: "John Doe",
-        company: "CEO, InnovateTech",
+        quote: "Une direction qui coordonne les expertises du groupe afin de donner aux projets un cadre clair, fiable et durable.",
+        name: "Direction ITEC Solutions",
+        company: "Pilotage et coordination du groupe",
     },
     {
-        quote: "Awesome! Working with Aleric has transformed our operations. The team is truly exceptional!",
-        name: "John Doe",
-        company: "CEO, InnovateTech",
+        quote: "Notre développement repose sur l’écoute des territoires, la transmission des savoir-faire et des partenariats de confiance.",
+        name: "Direction ITEC Solutions",
+        company: "Une ambition partagée",
     },
     {
-        quote: "Awesome! Working with Aleric has transformed our operations. The team is truly exceptional!",
-        name: "John Doe",
-        company: "CEO, InnovateTech",
+        quote: "Les projets sont pilotés avec la même exigence : qualité technique, cohérence d’ensemble et respect des engagements.",
+        name: "Direction ITEC Solutions",
+        company: "Exigence et responsabilité",
     },
 ];
 
@@ -57,18 +57,18 @@ const AboutCreativeTestimonial = () => {
                     <div className="col-lg-6">
                         <div className="tp-service-title-wrap mb-60 tp_fade_anim" data-delay=".4" data-fade-from="left">
                             <span className={`tp-section-subtitle tp-ff-heading fw-500 ${textColor} fs-16 mb-35`}>
-                                <span className="borders d-inline-block"></span>What’re They Says
+                                <span className="borders d-inline-block"></span>Équipe dirigeante
                             </span>
                             <p className={`tp-ff-heading fs-25 fw-500 ${descColor} tp-service-para`}>
-                                We pride ourselves on delivering<br />
-                                innovative, impactful, and results-<br />
-                                driven projects.
+                                Une équipe dirigeante engagée au service<br />
+                                d’une vision commune et de projets<br />
+                                menés avec responsabilité.
                             </p>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <div className="mb-45 tp_fade_anim" data-delay=".4" data-fade-from="right">
-                            <h2 className={`tp-section-title fs-70 fs-xs-40 fw-700 text-uppercase ${textColor}`}>Testimonials</h2>
+                            <h2 className={`tp-section-title fs-70 fs-xs-40 fw-700 text-uppercase ${textColor}`}>Équipe dirigeante</h2>
                         </div>
                     </div>
                     <div className="col-xl-6">
@@ -76,8 +76,8 @@ const AboutCreativeTestimonial = () => {
                             <div className="row align-items-end">
                                 <div className="col-lg-5 col-md-5 col-sm-5">
                                     <div className="tp-testimonial-agents mb-90 tp_fade_anim" data-delay=".4">
-                                        <h3 className={`fs-70 fw-500 ${textColor}`}>{`>208`}</h3>
-                                        <span className={`tp-ff-heading fw-700 fs-18 ${textColor}`}>Total Contract Agents</span>
+                                        <h3 className={`fs-70 fw-500 ${textColor}`}>01</h3>
+                                        <span className={`tp-ff-heading fw-700 fs-18 ${textColor}`}>vision commune</span>
                                     </div>
                                 </div>
                                 <div className="col-lg-7 col-md-7 col-sm-7">

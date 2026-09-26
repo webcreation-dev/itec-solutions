@@ -1,4 +1,4 @@
-import { ArchitectureHeader, HeaderSearch, CreativeAgencyFooter } from "@/components/layout";
+import { ArchitectureFooter, ArchitectureHeader, HeaderSearch } from "@/components/layout";
 import { ClientProviders, ThemeProvider } from "@/providers";
 
 export default function PortfolioDetailsLayout({
@@ -14,7 +14,7 @@ export default function PortfolioDetailsLayout({
                 <div id="smooth-wrapper">
                     <div id="smooth-content">
                         {children}
-                        <CreativeAgencyFooter />
+                        <ArchitectureFooter />
                     </div>
                 </div>
             </ClientProviders>

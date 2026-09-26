@@ -1,25 +1,25 @@
 import { SmartLink } from "@/components/common";
 import { ArrowIconThree } from "@/svg";
 
-const awards = [
+const projectStages = [
     {
-        year: "2005",
-        title: "Architecture project of the year",
+        year: "01",
+        title: "Étudier la faisabilité et les besoins",
         delay: ".3",
     },
     {
-        year: "2010",
-        title: "Architecture MasterPriz",
+        year: "02",
+        title: "Structurer le programme et le montage",
         delay: ".4",
     },
     {
-        year: "2014",
-        title: "Best project of the year",
+        year: "03",
+        title: "Coordonner les partenaires et les études",
         delay: ".5",
     },
     {
-        year: "2020",
-        title: "Architecture MasterPrize",
+        year: "04",
+        title: "Suivre la réalisation jusqu’à la livraison",
         delay: ".6",
     },
 ];
@@ -36,15 +36,15 @@ const ConstructionFaq = () => {
                                 className="tp-section-title-clash-600 fs-60 fw-500 mb-0 pb-40 tp_fade_anim"
                                 data-delay=".4"
                             >
-                                Through a <br />
-                                unique combination <br />
-                                of engineering,
+                                Une méthode <br />
+                                de projet claire, <br />
+                                de l’idée au chantier.
                             </h3>
 
                             <div className="cnt-faq-btn tp_fade_anim" data-delay=".5">
                                 <SmartLink
                                     className="upd-btn-black-square cnt-btn-style style-2 btn-transparent"
-                                    href="/service-2"
+                                    href="/contact"
                                 >
                                     <i>
                                         <ArrowIconThree />
@@ -52,8 +52,8 @@ const ConstructionFaq = () => {
                                     </i>
 
                                     <span>
-                                        <span className="text-1">Explore Services</span>
-                                        <span className="text-2">Explore Services</span>
+                                        <span className="text-1">Échanger avec ITEC</span>
+                                        <span className="text-2">Échanger avec ITEC</span>
                                     </span>
                                 </SmartLink>
                             </div>
@@ -63,7 +63,7 @@ const ConstructionFaq = () => {
                     {/* Right Side */}
                     <div className="col-lg-6">
                         <div className="ar-award-right-wrap cnt-faq-wrap">
-                            {awards.map((item, index) => (
+                            {projectStages.map((item, index) => (
                                 <div
                                     key={index}
                                     className="ar-award-item tp_fade_anim"

@@ -1,14 +1,12 @@
 "use client";
 import { useIsDarkRoute, useStickyHeader } from "@/hooks";
-import { PrimaryOffcanvas, SmartLink } from "@/components/common";
+import { SmartLink } from "@/components/common";
 import HeaderMenus from "./components/HeaderMenu";
-import useGlobalContext from "@/hooks/useContext";
-import { HeaderButtonArrow, HeaderSearchIcon } from "@/svg";
+import { HeaderButtonArrow } from "@/svg";
 import Image from "next/image";
 import Link from "next/link";
 
 const ArchitectureHeader = () => {
-    const { toggleMainSidebar, toggleSearchModal } = useGlobalContext();
     const isSticky = useStickyHeader(20);
 
     const isDarkTheme = useIsDarkRoute();
@@ -36,25 +34,25 @@ const ArchitectureHeader = () => {
                                                 <>
                                                     <Image
                                                         className="logo-1"
-                                                        width={150}
-                                                        height={36}
-                                                        src="/assets/img/logo/logo.png"
-                                                        alt="logo"
+                                                        width={178}
+                                                        height={89}
+                                                        src="/assets/img/logo/itec-logo.png"
+                                                        alt="ITEC Ingénierie Construction Développement"
                                                     />
                                                     <Image
                                                         className="logo-2 d-none"
-                                                        width={150}
-                                                        height={36}
-                                                        src="/assets/img/logo/logo-white.png"
-                                                        alt="logo"
+                                                        width={178}
+                                                        height={89}
+                                                        src="/assets/img/logo/itec-logo.png"
+                                                        alt="ITEC Ingénierie Construction Développement"
                                                     />
                                                 </>
                                             ) : (
                                                 <Image
-                                                    width={150}
-                                                    height={36}
-                                                    src="/assets/img/logo/logo.png"
-                                                    alt="logo"
+                                                    width={178}
+                                                    height={89}
+                                                    src="/assets/img/logo/itec-logo.png"
+                                                    alt="ITEC Ingénierie Construction Développement"
                                                 />
                                             )}
                                         </Link>
@@ -68,34 +66,21 @@ const ArchitectureHeader = () => {
                             </div>
                             <div className="col-xl-3 col-7">
                                 <div className="tp-header-right d-flex align-items-center justify-content-end">
-                                    <div className="tp-header-search">
-                                        <button onClick={toggleSearchModal} className="tp-header-search-btn tp-search-click" aria-label="Rechercher">
-                                            <HeaderSearchIcon />
-                                        </button>
-                                    </div>
-                                    <div className="tp-header-btn tp-header-btn-spacing d-none d-md-inline-block ml-20">
+                                    <div className="tp-header-btn tp-header-btn-spacing d-none d-md-inline-block">
                                         <SmartLink href="/contact" className="itec-header-talk tp-btn-lg d-inline-block lh-0 tp-round-26 fs-15 tp-bg-common-black text-uppercase ls-0 tp-btn-switch-animation tp-text-common-white hover-text-white tp-ff-heading fw-500">
                                             <span className="d-flex align-items-center justify-content-center">
-                                                <span className="btn-text">Let&apos;s Talk</span>
+                                                <span className="btn-text">Discutons</span>
                                                 <span className="btn-icon"><HeaderButtonArrow /></span>
                                                 <span className="btn-icon"><HeaderButtonArrow /></span>
                                             </span>
                                         </SmartLink>
                                     </div>
-                                    <button onClick={toggleMainSidebar} className="tp-menu-bar al-header-dvdr tp-header-sidebar-btn tp-header-2-menu-btn tp-header-it-menu-btn ml-20">
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
-                                    </button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </header>
-            {/* off canvas */}
-            <PrimaryOffcanvas />
-            {/* off canvas */}
         </>
     );
 };

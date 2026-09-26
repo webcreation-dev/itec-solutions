@@ -95,22 +95,18 @@ export const brand_text_items = [
     {
         id: 5,
         construction: [
-            "Creative agency",
-            "Website marketing",
-            "Digital marketing",
-            "Product marketing",
-            "Research marketing",
-            "Website marketing",
-            "Lifetime Update",
-            "Product marketing",
-            "Research marketing",
-            "Website marketing",
-            "Lifetime Update",
-            "Creative agency",
-            "Website marketing",
-            "Digital marketing",
-            "Product marketing",
-            "Research marketing"
+            "Ingénierie",
+            "Construction",
+            "Développement immobilier",
+            "Maîtrise d’œuvre",
+            "Génie civil",
+            "Études techniques",
+            "Ingénierie",
+            "Construction",
+            "Développement immobilier",
+            "Maîtrise d’œuvre",
+            "Génie civil",
+            "Études techniques"
         ]
     }
 ];

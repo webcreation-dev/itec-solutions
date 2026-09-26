@@ -8,18 +8,20 @@ const blogItems = [
     {
         id: 1,
         userImg: "/assets/img/update-2/blog/blog-user-1.png",
-        userName: "Leslie Alexander",
-        role: "CEO at Specter",
+        userName: "ITEC Solutions",
+        role: "Construction & réalisation",
         blogImg: "/assets/img/update-2/blog/blog-thumb-2.jpg",
-        category: "Construction",
+        title: "Préparer un chantier : coordonner les intervenants dès l’amont.",
+        category: "Méthode projet",
     },
     {
         id: 2,
         userImg: "/assets/img/update-2/blog/blog-user-2.png",
-        userName: "Leslie Alexander",
-        role: "CEO at Specter",
+        userName: "ITEC Solutions",
+        role: "Développement immobilier",
         blogImg: "/assets/img/update-2/blog/blog-thumb-3.jpg",
-        category: "Interior Design",
+        title: "Concevoir un programme immobilier cohérent avec son territoire.",
+        category: "Développement",
     },
 ];
 
@@ -43,23 +45,23 @@ const ConstructionTextBlog = () => {
                                 />
                             </div>
                             <div className="cnt-blog-item-content">
-                                <span className="cnt-blog-item-sub">Our Blog</span>
+                                <span className="cnt-blog-item-sub">Les expertises ITEC</span>
 
                                 <h4 className="cnt-blog-item-title">
                                     <SmartLink
-                                        href="/blog-details"
+                                        href="/portfolio-col-3"
                                         className="underline-black"
                                     >
-                                        Our Latest <br />
-                                        News & Blog <br />
-                                        Posts
+                                        Construire, développer <br />
+                                        et coordonner <br />
+                                        avec méthode.
                                     </SmartLink>
                                 </h4>
 
                                 <div className="cnt-blog-item-btn">
                                     <SmartLink
                                         className="upd-btn-black-square cnt-btn-style style-2 btn-transparent"
-                                        href="/blog-grid"
+                                        href="/portfolio-col-3"
                                     >
                                         <i>
                                             <ArrowIconThree />
@@ -67,8 +69,8 @@ const ConstructionTextBlog = () => {
                                         </i>
 
                                         <span>
-                                            <span className="text-1">See All Blog</span>
-                                            <span className="text-2">See All Blog</span>
+                                        <span className="text-1">Voir nos références</span>
+                                        <span className="text-2">Voir nos références</span>
                                         </span>
                                     </SmartLink>
                                 </div>

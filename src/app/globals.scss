@@ -27,6 +27,44 @@
     fill: #fff !important;
 }
 
+/* Palette ITEC, dérivée du logo : bleu nuit et turquoise. */
+:root {
+    --tp-theme-primary: #43bbc2;
+    --tp-theme-secondary: #278f96;
+    --tp-theme-1: #263d4a;
+    --tp-common-black-1: #263d4a;
+    --tp-common-black-4: #45606d;
+    --tp-common-blue: #278f96;
+    --tp-common-blue-2: #43bbc2;
+    --tp-common-green: #43bbc2;
+    --tp-common-green-2: #43bbc2;
+    --tp-common-green-3: #e2f5f5;
+    --tp-common-nights: #263d4a;
+    --tp-common-red: #278f96;
+}
+
+.tp-header-logo img,
+.al-footer-archi-logo img,
+.tp-search-logo img {
+    width: 178px;
+    height: auto;
+    max-height: 72px;
+    object-fit: contain;
+}
+
+.al-footer-archi-logo .itec-footer-logo-link {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 10px !important;
+    line-height: 0;
+}
+
+.al-footer-archi-logo img {
+    display: block;
+    border-radius: 10px !important;
+    clip-path: inset(0 round 10px);
+}
+
 /* Accueil ITEC : le carrousel reste strictement derrière la bannière Architecture. */
 .itec-architecture-hero-slider {
     position: absolute !important;
@@ -102,6 +140,43 @@
 .al-hero-archi-area > .container-fluid {
     position: relative;
     z-index: 1;
+}
+
+/* FAQ Ingénierie : état fermé (+) / état ouvert (−). */
+#general_faqaccordion .tp-faq-btn .accordion-btn,
+#general_faqaccordiontwo .tp-faq-btn .accordion-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 24px;
+    min-height: 24px;
+    margin-left: 20px;
+    padding-left: 0;
+    color: var(--tp-theme-secondary);
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+#general_faqaccordion .tp-faq-btn .accordion-btn::before,
+#general_faqaccordiontwo .tp-faq-btn .accordion-btn::before {
+    content: "+";
+    position: static;
+    width: auto;
+    height: auto;
+    background: none;
+    opacity: 1;
+    transform: none;
+}
+
+#general_faqaccordion .tp-faq-btn:not(.collapsed) .accordion-btn::before,
+#general_faqaccordiontwo .tp-faq-btn:not(.collapsed) .accordion-btn::before {
+    content: "−";
+}
+
+#general_faqaccordion .tp-faq-btn .accordion-btn::after,
+#general_faqaccordiontwo .tp-faq-btn .accordion-btn::after {
+    display: none;
 }
 
 

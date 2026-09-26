@@ -42,7 +42,7 @@ const ConstructionAbout = () => {
                                 </p>
                             </div>
                             <div className="cnt-about-btn-box tp_fade_anim" data-delay=".5" data-fade-from="top" data-ease="bounce">
-                                <SmartLink className="upd-btn-black-square cnt-btn-style style-2 btn-transparent" href="/service-2">
+                                <SmartLink className="upd-btn-black-square cnt-btn-style style-2 btn-transparent" href="/service-details">
                                     <i>
                                         <ArrowIconThree />
                                         <ArrowIconThree />

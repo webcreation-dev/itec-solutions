@@ -5,21 +5,18 @@ import Image from "next/image";
 const plans = [
   {
     id: 1,
-    title: "Bedroom",
-    desc: `Enjoy one-click sharing with interactive 
-capabilities that bring your team`,
+    title: "Étude & faisabilité",
+    desc: "Analyser le site, le programme, les contraintes et le potentiel de l’opération.",
   },
   {
     id: 2,
-    title: "Kitchen",
-    desc: `Enjoy one-click sharing with interactive 
-capabilities that bring your team`,
+    title: "Montage & conception",
+    desc: "Définir un cadre viable avec la maîtrise d’ouvrage et les partenaires de conception.",
   },
   {
     id: 3,
-    title: "Bathroom",
-    desc: `Enjoy one-click sharing with interactive 
-capabilities that bring your team`,
+    title: "Réalisation & livraison",
+    desc: "Organiser le chantier et suivre les engagements de qualité, de délai et de budget.",
   },
 ];
 
@@ -38,14 +35,14 @@ const ConstructionTextPlan = () => {
                 className="cnt-section-subtitle mb-20 tp_fade_anim"
                 data-delay=".3"
               >
-                Aleric Management
+                Promotion immobilière
               </span>
 
               <h3
                 className="tp-section-title-clash-600 fs-60 fw-500 mb-0 pb-15 tp_fade_anim"
                 data-delay=".4"
               >
-                Our Building Plan
+                Les étapes d’un programme maîtrisé
               </h3>
             </div>
           </div>

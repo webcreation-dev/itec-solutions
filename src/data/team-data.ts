@@ -134,9 +134,9 @@ const teamData: MultiHomeTeam = {
     construction: [
         {
             id: 1,
-            name: "David Miller",
-            slug: "david-miller",
-            role: "Founder & CEO",
+            name: "Architectes partenaires",
+            slug: "architectes-partenaires",
+            role: "Conception et identité des projets",
             img: "/assets/img/update-2/team/home-2/thumb-1.jpg",
             social: {
                 twitter: "#",
@@ -144,9 +144,9 @@ const teamData: MultiHomeTeam = {
         },
         {
             id: 2,
-            name: "Ethan Roberts",
-            slug: "ethan-roberts",
-            role: "Marketing Leader",
+            name: "Bureaux d’études associés",
+            slug: "bureaux-etudes-associes",
+            role: "Études techniques et optimisation",
             img: "/assets/img/update-2/team/home-2/thumb-2.jpg",
             social: {
                 twitter: "#",
@@ -154,9 +154,9 @@ const teamData: MultiHomeTeam = {
         },
         {
             id: 3,
-            name: "Michael Anderson",
-            slug: "michael-anderson",
-            role: "Project Manager",
+            name: "Entreprises qualifiées",
+            slug: "entreprises-qualifiees",
+            role: "Réalisation et suivi de chantier",
             img: "/assets/img/update-2/team/home-2/thumb-3.jpg",
             social: {
                 twitter: "#",

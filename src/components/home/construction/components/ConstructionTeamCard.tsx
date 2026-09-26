@@ -1,15 +1,13 @@
 import { SmartLink } from "@/components/common";
-import { TwittorIcon } from "@/svg";
 import { TeamItemProps } from "@/types";
 import Image from "next/image";
-import Link from "next/link";
 
-const ConstructionTeamCard: React.FC<TeamItemProps> = ({ id, img, name, role, type, slug }) => {
+const ConstructionTeamCard: React.FC<TeamItemProps> = ({ img, name, role }) => {
     return (
         <div className="col-xl-4 col-md-6">
             <div className="cnt-team-item mb-30">
                 <div className="cnt-team-item-thumb mb-20">
-                    <SmartLink href={`/team-details/${type}/${id}-${slug}`}>
+                    <SmartLink href="/contact">
                         <Image className="img-fluid" width={424} height={456} src={img} alt={name} />
                     </SmartLink>
                 </div>
@@ -18,20 +16,12 @@ const ConstructionTeamCard: React.FC<TeamItemProps> = ({ id, img, name, role, ty
                         <h4 className="cnt-team-item-title">
                             <SmartLink
                                 className="underline-black"
-                                href={`/team-details/${type}/${id}-${slug}`}
+                                href="/contact"
                             >
                                 {name}
                             </SmartLink>
                         </h4>
                         <p>{role}</p>
-                    </div>
-                    <div className="cnt-team-item-social">
-                        <Link href="#">
-                            <span className="bdr-1">
-                                <TwittorIcon />
-                            </span>
-                            <span className="bdr-2">Twitter</span>
-                        </Link>
                     </div>
                 </div>
             </div>

@@ -4,12 +4,11 @@ import Marquee from "react-fast-marquee";
 import { ArrowIconTen } from "@/svg";
 
 const slideItems = [
-    { first: "Design", second: "development" },
-    { first: "Design", second: "development" },
-    { first: "Research", second: "development" },
-    { first: "Design", second: "Wireframe" },
-    { first: "High Fidelity", second: "Design" },
-    { first: "Design", second: "development" },
+    { first: "Ingénierie", second: "Construction" },
+    { first: "Développement", second: "Architecture" },
+    { first: "Immobilier", second: "Ingénierie" },
+    { first: "Construction", second: "Développement" },
+    { first: "Architecture", second: "Immobilier" },
 ];
 
 const ContactTextSlider = () => {

@@ -7,18 +7,18 @@ const AboutModernFeature = () => {
                 <div className="row gx-0">
                     <div className="col-lg-6">
                         <div className="tp-about-feature-thumb h-100">
-                            <img className="w-100" src="/assets/img/about/consulting/thumb.jpg" alt="Feature Banner" />
+                            <img className="w-100" src="/assets/projets/lovagny-persp-1-min.jpg" alt="Projet ITEC Solutions" />
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <div className="tp-about-feature-info tp-bg-common-black-1 h-100">
                             <h2 className="fw-500 fs-60 fs-xl-50 fs-xs-35 lh-120-per tp-ff-dm tp-text-grey-5 mb-20 tp_fade_anim" data-delay=".3" data-fade-from="right">
-                                Transform your business today with expert
+                                Une présence qui relie les territoires.
                             </h2>
                             <div className="tp_fade_anim" data-delay=".4" data-fade-from="right">
                                 <p className="tp-ff-dm fs-18 lh-140-per tp-text-grey-6 mb-30">
-                                    Leverage cutting-edge technology and strategic insights to<br />
-                                    streamline operations, boost efficiency.
+                                    ITEC Solutions s’appuie sur ses références françaises pour accompagner<br />
+                                    des projets exigeants en France et en Afrique de l’Ouest.
                                 </p>
                             </div>
                             <div className="tp-service-cst-info-list mb-35 tp_fade_anim" data-delay=".5" data-fade-from="right">
@@ -29,7 +29,7 @@ const AboutModernFeature = () => {
                                                 <path d="M18.7503 0.276674L7.8072 14.7403C7.57495 15.0311 7.22607 15.0888 6.93501 14.8568C6.87645 14.799 6.87645 14.799 6.81763 14.7403L0.0258056 5.79766C-0.032257 5.7399 0.0258056 5.68214 0.0258056 5.68214C0.083618 5.62438 0.141681 5.68214 0.141681 5.68214L7.23308 10.8441L18.4597 0.0438828C18.5175 -0.0146276 18.6341 -0.0146276 18.6919 0.0438828C18.7503 0.101393 18.7503 0.217914 18.7503 0.276674Z" fill="#F3F1F2" />
                                             </svg>
                                         </span>
-                                        Digital Strategy Consulting
+                                        France · études de structure, calculs et dimensionnement
                                     </li>
                                     <li>
                                         <span>
@@ -37,7 +37,7 @@ const AboutModernFeature = () => {
                                                 <path d="M18.7503 0.276674L7.8072 14.7403C7.57495 15.0311 7.22607 15.0888 6.93501 14.8568C6.87645 14.799 6.87645 14.799 6.81763 14.7403L0.0258056 5.79766C-0.032257 5.7399 0.0258056 5.68214 0.0258056 5.68214C0.083618 5.62438 0.141681 5.68214 0.141681 5.68214L7.23308 10.8441L18.4597 0.0438828C18.5175 -0.0146276 18.6341 -0.0146276 18.6919 0.0438828C18.7503 0.101393 18.7503 0.217914 18.7503 0.276674Z" fill="#F3F1F2" />
                                             </svg>
                                         </span>
-                                        AI & Machine Learning Solutions
+                                        Sénégal · études techniques et réalisation de travaux
                                     </li>
                                     <li>
                                         <span>
@@ -45,7 +45,7 @@ const AboutModernFeature = () => {
                                                 <path d="M18.7503 0.276674L7.8072 14.7403C7.57495 15.0311 7.22607 15.0888 6.93501 14.8568C6.87645 14.799 6.87645 14.799 6.81763 14.7403L0.0258056 5.79766C-0.032257 5.7399 0.0258056 5.68214 0.0258056 5.68214C0.083618 5.62438 0.141681 5.68214 0.141681 5.68214L7.23308 10.8441L18.4597 0.0438828C18.5175 -0.0146276 18.6341 -0.0146276 18.6919 0.0438828C18.7503 0.101393 18.7503 0.217914 18.7503 0.276674Z" fill="#F3F1F2" />
                                             </svg>
                                         </span>
-                                        Data Analytics & Insights
+                                        Bénin · implantation en préparation
                                     </li>
                                 </ul>
                             </div>

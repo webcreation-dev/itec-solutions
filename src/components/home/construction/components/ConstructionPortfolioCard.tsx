@@ -6,6 +6,9 @@ interface portfolioItemProps {
         bg: string;
         img: string;
         year: string;
+        flag?: string;
+        title: string;
+        description: string;
     }
 }
 const ConstructionPortfolioCard: React.FC<portfolioItemProps> = ({ item }) => {
@@ -14,27 +17,27 @@ const ConstructionPortfolioCard: React.FC<portfolioItemProps> = ({ item }) => {
             className="cnt-portfolio-video-card"
             style={{ backgroundColor: item.bg }}
         >
-            <span className="cnt-portfolio-video-sub">{item.year}</span>
+            <span className="cnt-portfolio-video-sub">
+                {item.flag && <span role="img" aria-label={`Drapeau ${item.year}`} className="me-2" style={{ fontSize: "1.25em" }}>{item.flag}</span>}
+                {item.year}
+            </span>
 
             <h4 className="cnt-portfolio-video-title">
                 <SmartLink
                     className="underline-black"
-                    href="/portfolio-details-gallery"
+                    href="/portfolio-col-3"
                 >
-                    Interiors that elevate modern <br /> construction designs
+                    {item.title}
                 </SmartLink>
             </h4>
             <div className="cnt-portfolio-video-thumb d-inline-block fix">
-                <SmartLink href="/portfolio-details-classic-stack">
+                <SmartLink href="/portfolio-col-3">
                     <Image className="img-fluid" width={530} height={377} src={item.img} alt="portfolio" />
                 </SmartLink>
             </div>
             <div className="cnt-portfolio-video-text">
                 <p>
-                    At Marquee, we believe great construction begins <br />
-                    with great design. Our construction design process <br />
-                    merges creativity with precision to deliver structures <br />
-                    that are both visually.
+                    {item.description}
                 </p>
             </div>
         </div>

@@ -2,27 +2,27 @@ import AnimatedCounterTwo from "@/components/shared/Counter/AnimatedCounterTwo";
 
 const funFacts = [
     {
-        value: 4,
-        suffix: "k+",
-        label: "Projects completed",
+        value: 3,
+        suffix: "",
+        label: "métiers complémentaires",
         delay: ".3",
     },
     {
-        value: 91,
-        suffix: "+",
-        label: "Renovation experts",
+        value: 2,
+        suffix: "",
+        label: "continents d’intervention",
         delay: ".5",
     },
     {
-        value: 42,
-        suffix: "+",
-        label: "Renovation experts",
+        value: 1,
+        suffix: "",
+        label: "interlocuteur projet",
         delay: ".7",
     },
     {
-        value: 24,
-        suffix: "+",
-        label: "Projects completed",
+        value: 360,
+        suffix: "°",
+        label: "vision du projet",
         delay: ".8",
     },
 ];

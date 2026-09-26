@@ -38,7 +38,7 @@ const BlogGrid = () => {
                                             {isDark ? (
                                                 <>
                                                     <rect y="12" width="30" height="30" fill="white" />
-                                                    <rect x="15" width="30" height="30" fill="#C4EE18" />
+                                                    <rect x="15" width="30" height="30" fill="#43BBC2" />
                                                 </>
                                             ) : (
                                                 <>
@@ -47,7 +47,7 @@ const BlogGrid = () => {
                                                     </mask>
                                                     <g mask="url(#mask0_191_87)">
                                                         <rect y="13" width="30" height="30" fill="#030303" />
-                                                        <rect x="15" y="1" width="30" height="30" fill="#C4EE18" />
+                                                        <rect x="15" y="1" width="30" height="30" fill="#43BBC2" />
                                                     </g>
                                                 </>
                                             )}

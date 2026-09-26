@@ -27,14 +27,14 @@ const ConstructionTextTeam = () => {
                                 className="cnt-section-subtitle mb-20 tp_fade_anim"
                                 data-delay=".3"
                             >
-                                Aleric Team
+                                Un réseau mobilisé par projet
                             </span>
 
                             <h3
                                 className="tp-section-title-clash-600 fs-60 fw-500 mb-0 tp_fade_anim"
                                 data-delay=".4"
                             >
-                                Through a <br /> unique combination.
+                                Architectes, bureaux d’études <br /> et entreprises, autour d’un même cap.
                             </h3>
                         </div>
                     </div>
@@ -46,7 +46,7 @@ const ConstructionTextTeam = () => {
                         >
                             <SmartLink
                                 className="upd-btn-black-square cnt-btn-style style-2 btn-transparent"
-                                href="/team"
+                                href="/contact"
                             >
                                 <i>
                                     <ArrowIconThree />
@@ -54,8 +54,8 @@ const ConstructionTextTeam = () => {
                                 </i>
 
                                 <span>
-                                    <span className="text-1">All Members</span>
-                                    <span className="text-2">All Members</span>
+                                    <span className="text-1">Nous contacter</span>
+                                    <span className="text-2">Nous contacter</span>
                                 </span>
                             </SmartLink>
                         </div>

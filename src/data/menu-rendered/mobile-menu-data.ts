@@ -5,10 +5,9 @@ const menuItemsTwo: MenuItem[] = [
     { title: "Accueil", href: "/architecture" },
     { title: "Ingénierie", href: "/service-details" },
     { title: "Construction", href: "/construction" },
-    { title: "Vision", href: "/about-modern" },
     { title: "Filiales", href: "/team" },
     { title: "Références", href: "/portfolio-col-3" },
-    { title: "À propos", href: "/about-creative" },
+    { title: "Vision", href: "/about-creative" },
     { title: "Contact", href: "/contact" },
 ];
 

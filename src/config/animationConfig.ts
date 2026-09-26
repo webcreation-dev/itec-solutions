@@ -33,9 +33,9 @@ export const animationConfig: Record<string, (() => void)[]> = {
     "/blog-details": [initRotateTextAnim],
     "/blog-details-2": [initRotateTextAnim],
     "/about-me": [initRotateTextAnim, initBounceOnAnim, initScrollTextInvert, initPinnedServiceScrollPanels],
-    "/about-creative": [buttonHoverAnimation, buttonMoveAnimation, initBounceOnAnim, initRotateTextAnim],
+    "/about-creative": [buttonHoverAnimation, buttonMoveAnimation, initBounceOnAnim, initRotateTextAnim, initScrollTextInvert],
     "/about-modern": [initScrollTextInvert],
-    "/team": [initRevealOnHover],
+    "/team": [initRevealOnHover, initPortfolioPinAnim],
     "/team-details": [applyWebGLHoverEffect, initRotateTextAnim, buttonHoverAnimation, buttonMoveAnimation],
     "/faq": [initRotateTextAnim, buttonHoverAnimation, buttonMoveAnimation],
     "/faq-2": [initRotateTextAnim, buttonHoverAnimation, buttonMoveAnimation],
@@ -83,9 +83,9 @@ export const animationConfig: Record<string, (() => void)[]> = {
     "/dark/blog-details": [initRotateTextAnim],
     "/dark/blog-details-2": [initRotateTextAnim],
     "/dark/about-me": [initRotateTextAnim, initBounceOnAnim, initScrollTextInvert, initPinnedServiceScrollPanels],
-    "/dark/about-creative": [buttonHoverAnimation, buttonMoveAnimation, initBounceOnAnim, initRotateTextAnim],
+    "/dark/about-creative": [buttonHoverAnimation, buttonMoveAnimation, initBounceOnAnim, initRotateTextAnim, initScrollTextInvert],
     "/dark/about-modern": [initScrollTextInvert],
-    "/dark/team": [initRevealOnHover],
+    "/dark/team": [initRevealOnHover, initPortfolioPinAnim],
     "/dark/team-details": [applyWebGLHoverEffect, initRotateTextAnim, buttonHoverAnimation, buttonMoveAnimation],
     "/dark/faq": [initRotateTextAnim, buttonHoverAnimation, buttonMoveAnimation],
     "/dark/faq-2": [initRotateTextAnim, buttonHoverAnimation, buttonMoveAnimation],
@@ -106,4 +106,3 @@ export const animationConfig: Record<string, (() => void)[]> = {
     "/dark/portfolio-perspective-slider": [initPerspectiveSlider],
 
 };
-

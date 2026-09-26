@@ -6,6 +6,7 @@ interface BlogItem {
     userName: string;
     role: string;
     blogImg: string;
+    title: string;
     category: string;
 }
 
@@ -31,17 +32,17 @@ const ConstructionBlogItem: React.FC<ConstructionBlogItemProps> = ({ item, isLas
 
             <div className="cnt-blog-item-2-content">
                 <div className="cnt-blog-item-2-thumb">
-                    <SmartLink href="/blog-details">
-                        <Image className="img-fluid" width={351} height={186} src={item.blogImg} alt="thumb" />
+                    <SmartLink href="/portfolio-col-3">
+                        <Image className="img-fluid" width={351} height={186} src={item.blogImg} alt={item.title} />
                     </SmartLink>
                 </div>
 
                 <h4 className="cnt-blog-item-2-title">
                     <SmartLink
-                        href="/blog-details"
+                        href="/portfolio-col-3"
                         className="underline-black"
                     >
-                        Be the strong willed one the <br /> public relationship.
+                        {item.title}
                     </SmartLink>
                 </h4>
 

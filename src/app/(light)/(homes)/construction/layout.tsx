@@ -1,5 +1,5 @@
 
-import { ArchitectureHeader, ConstructionFooter, HeaderSearch } from "@/components/layout";
+import { ArchitectureFooter, ArchitectureHeader, HeaderSearch } from "@/components/layout";
 import { MagicCursorProvider } from "@/providers/MagicCursorProvider";
 import { ClientProviders, ThemeProvider } from "@/providers";
 
@@ -17,7 +17,7 @@ export default function ConstructionLayout({
                     <div id="smooth-wrapper">
                         <div id="smooth-content">
                             {children}
-                            <ConstructionFooter/>
+                            <ArchitectureFooter />
                         </div>
                     </div>
                 </MagicCursorProvider>

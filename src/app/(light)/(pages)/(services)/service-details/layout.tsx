@@ -1,4 +1,4 @@
-import { ArchitectureHeader, HeaderSearch, MainFooter } from "@/components/layout";
+import { ArchitectureFooter, ArchitectureHeader, HeaderSearch } from "@/components/layout";
 import { ClientProviders } from "@/providers";
 
 export default function ServiceDetailsLayout({
@@ -13,7 +13,7 @@ export default function ServiceDetailsLayout({
             <div id="smooth-wrapper">
                 <div id="smooth-content">
                     {children}
-                    <MainFooter />
+                    <ArchitectureFooter />
                 </div>
             </div>
         </ClientProviders>

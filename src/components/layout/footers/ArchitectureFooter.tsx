@@ -20,7 +20,7 @@ const ArchitectureFooter = () => {
     const footerClassesName = {
         sectionBg: !isDarkTheme ? "/assets/img/update/footer/bg.jpg" : undefined,
         sectionBgColor: isDarkTheme ? "#121212" : undefined,
-        brandLogo: isDarkTheme ? "/assets/img/logo/logo-white.png" : "/assets/img/logo/logo.png",
+        brandLogo: "/assets/img/logo/itec-logo.png",
     }
 
     return (
@@ -96,12 +96,20 @@ const ArchitectureFooter = () => {
                         {/* LOGO */}
                         <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 pb-50">
                             <div className="al-footer-archi-logo tp_fade_anim" data-delay=".3">
-                                <Link href="/">
+                                <Link href="/" className="itec-footer-logo-link">
                                     <Image
-                                        width={150}
-                                        height={36}
+                                        className="itec-footer-logo-image"
+                                        width={178}
+                                        height={89}
                                         src={footerClassesName.brandLogo}
-                                        alt="logo"
+                                        alt="ITEC Ingénierie Construction Développement"
+                                        style={{
+                                            display: "block",
+                                            borderRadius: 10,
+                                            clipPath: "inset(0 round 10px)",
+                                            border: "1px solid rgba(38, 61, 74, 0.12)",
+                                            boxSizing: "border-box",
+                                        }}
                                     />
                                 </Link>
                             </div>
@@ -224,9 +232,9 @@ const ArchitectureFooter = () => {
                         </div>
                         <div className="col-lg-6 mb-30">
                             <div className="al-footer-archi-copyright-social text-end">
-                                <Link href="#">mentions légales</Link>
+                                <Link href="/faq">mentions légales</Link>
                                 <span>|</span>
-                                <Link href="#">confidentialité</Link>
+                                <Link href="/faq-2">confidentialité</Link>
                                 <span>|</span>
                                 <Link href="/contact">contact</Link>
                             </div>

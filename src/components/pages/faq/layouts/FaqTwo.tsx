@@ -15,32 +15,32 @@ const commonQuestions: FaqItem[] = [
     {
         id: "one",
         count: "01",
-        question: "What industries do you serve?",
-        answer: "Partnering with this AI agency was one of the best decisions we’ve made. From the very first call, their team demonstrated deep technical knowledge and a strong understanding.",
+        question: "Quelles données peuvent être collectées ?",
+        answer: "Lorsque vous utilisez le formulaire de contact, nous pouvons recevoir les informations que vous choisissez de communiquer, telles que votre nom, votre adresse e-mail, votre téléphone et le message relatif à votre projet.",
     },
     {
         id: "two",
         count: "02",
-        question: "How do you protect client data and privacy?",
-        answer: "Partnering with this AI agency was one of the best decisions we’ve made. From the very first call, their team demonstrated deep technical knowledge and a strong understanding.",
+        question: "Pourquoi ces données sont-elles utilisées ?",
+        answer: "Elles sont utilisées pour répondre à votre demande, vous recontacter si nécessaire et améliorer l’accompagnement proposé par ITEC Solutions.",
     },
     {
         id: "three",
         count: "03",
-        question: "Do you provide support after the project is done?",
-        answer: "Partnering with this AI agency was one of the best decisions we’ve made. From the very first call, their team demonstrated deep technical knowledge and a strong understanding.",
+        question: "Les données sont-elles partagées ?",
+        answer: "Les informations transmises sont destinées aux équipes habilitées d’ITEC Solutions et, lorsque cela est nécessaire au fonctionnement du site, à ses prestataires techniques. Elles ne sont pas cédées à des tiers à des fins commerciales.",
     },
     {
         id: "four",
         count: "04",
-        question: "How long does an average AI project take?",
-        answer: "Partnering with this AI agency was one of the best decisions we’ve made. From the very first call, their team demonstrated deep technical knowledge and a strong understanding.",
+        question: "Combien de temps les données sont-elles conservées ?",
+        answer: "Les données sont conservées uniquement pendant la durée nécessaire au traitement de la demande et au respect des obligations applicables. Les durées précises seront définies avant la mise en ligne définitive.",
     },
     {
         id: "five",
         count: "05",
-        question: "Is my data safe and secure?",
-        answer: "Partnering with this AI agency was one of the best decisions we’ve made. From the very first call, their team demonstrated deep technical knowledge and a strong understanding.",
+        question: "Comment nous contacter au sujet de vos données ?",
+        answer: "Pour toute question concernant vos informations, vous pouvez utiliser le formulaire de contact du site. Les coordonnées dédiées seront ajoutées lorsque l’organisation interne sera confirmée.",
     },
 ];
 
@@ -48,32 +48,32 @@ const servicesQuestions: FaqItem[] = [
     {
         id: "one-1",
         count: "01",
-        question: "What industries do you serve?",
-        answer: "Partnering with this AI agency was one of the best decisions we’ve made. From the very first call, their team demonstrated deep technical knowledge and a strong understanding.",
+        question: "Quels sont vos droits ?",
+        answer: "Selon la réglementation applicable, vous pouvez demander l’accès à vos données, leur rectification, leur suppression ou exercer toute autre demande relative à leur traitement.",
     },
     {
         id: "two-2",
         count: "02",
-        question: "How do you protect client data and privacy?",
-        answer: "Partnering with this AI agency was one of the best decisions we’ve made. From the very first call, their team demonstrated deep technical knowledge and a strong understanding.",
+        question: "Le site utilise-t-il des cookies ?",
+        answer: "Des cookies techniques peuvent être utilisés afin d’assurer le bon fonctionnement du site. Si des outils de mesure ou de services tiers sont ajoutés, leur utilisation sera précisée dans cette politique.",
     },
     {
         id: "three-3",
         count: "03",
-        question: "Do you provide support after the project is done?",
-        answer: "Partnering with this AI agency was one of the best decisions we’ve made. From the very first call, their team demonstrated deep technical knowledge and a strong understanding.",
+        question: "Comment les données sont-elles sécurisées ?",
+        answer: "ITEC Solutions met en œuvre des mesures organisationnelles et techniques raisonnables pour limiter les accès non autorisés, la perte ou l’altération des informations transmises.",
     },
     {
         id: "four-4",
         count: "04",
-        question: "How long does an average AI project take?",
-        answer: "Partnering with this AI agency was one of the best decisions we’ve made. From the very first call, their team demonstrated deep technical knowledge and a strong understanding.",
+        question: "Cette politique peut-elle évoluer ?",
+        answer: "Oui. Elle pourra être mise à jour si le site, les services proposés ou les règles applicables évoluent. La date de mise à jour sera indiquée sur cette page.",
     },
     {
         id: "five-5",
         count: "05",
-        question: "Is my data safe and secure?",
-        answer: "Partnering with this AI agency was one of the best decisions we’ve made. From the very first call, their team demonstrated deep technical knowledge and a strong understanding.",
+        question: "À qui s’adresser en cas de demande ?",
+        answer: "Vous pourrez écrire à ITEC Solutions via les coordonnées publiées sur la page Contact. Une adresse dédiée à la confidentialité pourra être ajoutée avant la mise en ligne définitive.",
     },
 ];
 
@@ -82,7 +82,7 @@ const FaqTwo = () => {
     
     const subtitleClass = isDark ? "tp-text-common-white" : "tp-text-common-black-1";
     const titleClass = isDark ? "tp-text-common-white" : "tp-text-common-black-1";
-    const homeLink = isDark ? "/dark" : "/";
+    const homeLink = isDark ? "/dark" : "/architecture";
 
     return (
         <main>
@@ -93,12 +93,12 @@ const FaqTwo = () => {
                         <div className="row">
                             <div className="col-xl-12 col-lg-12 col-md-9">
                                 <div className="tp-faq-hero-title-wrap">
-                                    <h2 className="tp-section-ai-title mb-45 fs-70 fs-xl-65 fs-lg-55 fs-sm-45 fs-xs-40 fw-600 ls-m-4 tp-ff-dm mb-15 tp-text-common-white">Frequently Asked<br /> Questions.</h2>
+                                    <h2 className="tp-section-ai-title mb-45 fs-70 fs-xl-65 fs-lg-55 fs-sm-45 fs-xs-40 fw-600 ls-m-4 tp-ff-dm mb-15 tp-text-common-white">Politique de<br /> confidentialité</h2>
                                     <div className="tp-breadcrumb-list tp-breadcrumb-2-list tp-breadcrumb-3-white pt-35">
                                         <ul>
-                                            <li><Link href={homeLink}>Home</Link></li>
+                                            <li><Link href={homeLink}>Accueil</Link></li>
                                             <li><span></span></li>
-                                            <li>Our Faq</li>
+                                            <li>Confidentialité</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -117,8 +117,8 @@ const FaqTwo = () => {
                             {/* Common Questions */}
                             <div className="tp-faq-wrap mb-150 tp-faq-cst-tab-content tp-faq-cst-tab-content-2 tp-faq-ai-tab-content">
                                 <div className="tp-faq-ai-title-wrap mb-25">
-                                    <span className={`text-anim tp-ff-dm fw-500 fs-18 ls-m-4 mb-10 d-inline-block ${subtitleClass}`}>/ FAQ /</span>
-                                    <h2 className={`text-anim tp-section-ai-title fs-72 fs-xl-65 fs-lg-55 fs-sm-45 fs-xs-40 fw-600 ls-m-4 tp-ff-dm ${titleClass}`}>Common Questions.</h2>
+                                    <span className={`text-anim tp-ff-dm fw-500 fs-18 ls-m-4 mb-10 d-inline-block ${subtitleClass}`}>/ DONNÉES PERSONNELLES /</span>
+                                    <h2 className={`text-anim tp-section-ai-title fs-72 fs-xl-65 fs-lg-55 fs-sm-45 fs-xs-40 fw-600 ls-m-4 tp-ff-dm ${titleClass}`}>Collecte et utilisation.</h2>
                                 </div>
                                 <div className="accordion mb-60" id="general_faqaccordion">
                                     {commonQuestions.map((item, index) => {
@@ -161,8 +161,8 @@ const FaqTwo = () => {
                             {/* Services Questions */}
                             <div className="tp-faq-wrap tp-faq-cst-tab-content tp-faq-cst-tab-content-2 tp-faq-ai-tab-content">
                                 <div className="tp-faq-ai-title-wrap mb-25">
-                                    <span className={`text-anim tp-ff-dm fw-500 fs-18 ls-m-4 mb-10 d-inline-block ${subtitleClass}`}>/ FAQ /</span>
-                                    <h2 className={`text-anim tp-section-ai-title fs-72 fs-xl-65 fs-lg-55 fs-sm-45 fs-xs-40 fw-600 ls-m-4 tp-ff-dm ${titleClass}`}>Services Questions.</h2>
+                                    <span className={`text-anim tp-ff-dm fw-500 fs-18 ls-m-4 mb-10 d-inline-block ${subtitleClass}`}>/ VOS DROITS /</span>
+                                    <h2 className={`text-anim tp-section-ai-title fs-72 fs-xl-65 fs-lg-55 fs-sm-45 fs-xs-40 fw-600 ls-m-4 tp-ff-dm ${titleClass}`}>Cookies et sécurité.</h2>
                                 </div>
                                 <div className="accordion mb-60" id="general_faqaccordiontwo">
                                     {servicesQuestions.map((item, index) => {

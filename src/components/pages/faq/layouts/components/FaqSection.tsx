@@ -14,52 +14,52 @@ interface FaqItem {
 const faqData: FaqItem[] = [
     {
         id: "one",
-        question: "What is branding, and why is it important?",
-        answer: "We specialize in branding, web design, UI/UX, digital marketing, SEO, PPC, content creation, and social media management.",
-        listTitle: "Our branding packages typically include:",
-        listItems: ["UI/UX Design", "Web & Branding", "Digital Marketing"],
+        question: "Éditeur du site",
+        answer: "Le site est édité par ITEC Solutions. Les informations d’identification complètes de l’éditeur seront renseignées avant la mise en ligne définitive.",
+        listTitle: "Informations à compléter :",
+        listItems: ["Dénomination sociale et forme juridique", "Adresse du siège social", "Téléphone et adresse e-mail de contact"],
     },
     {
         id: "two",
-        question: "What’s included in your branding design services?",
-        answer: "We specialize in branding, web design, UI/UX, digital marketing, SEO, PPC, content creation, and social media management.",
-        listTitle: "Our branding packages typically include:",
-        listItems: ["UI/UX Design", "Web & Branding", "Digital Marketing"],
+        question: "Directeur de la publication",
+        answer: "Le directeur de la publication est le représentant légal d’ITEC Solutions ou toute personne désignée par l’entreprise.",
+        listTitle: "Information à compléter :",
+        listItems: ["Nom et qualité du directeur de la publication"],
     },
     {
         id: "three",
-        question: "How long does the branding process take?",
-        answer: "We specialize in branding, web design, UI/UX, digital marketing, SEO, PPC, content creation, and social media management.",
-        listTitle: "Our branding packages typically include:",
-        listItems: ["UI/UX Design", "Web & Branding", "Digital Marketing"],
+        question: "Hébergement du site",
+        answer: "Le site est hébergé par un prestataire technique choisi par ITEC Solutions. Ses coordonnées seront affichées ici avant publication.",
+        listTitle: "Information à compléter :",
+        listItems: ["Nom, adresse et coordonnées de l’hébergeur"],
     },
     {
         id: "four",
-        question: "Will I receive all the necessary logo file formats?",
-        answer: "We specialize in branding, web design, UI/UX, digital marketing, SEO, PPC, content creation, and social media management.",
-        listTitle: "Our branding packages typically include:",
-        listItems: ["UI/UX Design", "Web & Branding", "Digital Marketing"],
+        question: "Propriété intellectuelle",
+        answer: "Les contenus du site — textes, visuels, marques, logos, documents et éléments graphiques — sont protégés. Toute reproduction ou utilisation doit faire l’objet d’une autorisation préalable d’ITEC Solutions.",
+        listTitle: "Sont notamment concernés :",
+        listItems: ["Le logo et l’identité visuelle ITEC", "Les textes et images publiés", "La structure et les éléments graphiques du site"],
     },
     {
         id: "five",
-        question: "What are brand guidelines, and why do I need them?",
-        answer: "We specialize in branding, web design, UI/UX, digital marketing, SEO, PPC, content creation, and social media management.",
-        listTitle: "Our branding packages typically include:",
-        listItems: ["UI/UX Design", "Web & Branding", "Digital Marketing"],
+        question: "Responsabilité",
+        answer: "ITEC Solutions s’efforce de diffuser des informations exactes et actualisées. Leur consultation ne dispense toutefois pas l’utilisateur de vérifier les informations utiles à son projet auprès de l’entreprise.",
+        listTitle: "L’utilisateur est invité à :",
+        listItems: ["Vérifier les informations avant toute décision", "Nous signaler toute erreur constatée", "Utiliser le site dans le respect de la réglementation applicable"],
     },
     {
         id: "six",
-        question: "Do you provide ongoing brand support?",
-        answer: "We specialize in branding, web design, UI/UX, digital marketing, SEO, PPC, content creation, and social media management.",
-        listTitle: "Our branding packages typically include:",
-        listItems: ["UI/UX Design", "Web & Branding", "Digital Marketing"],
+        question: "Liens externes",
+        answer: "Le site peut contenir des liens vers des sites tiers. ITEC Solutions ne contrôle pas leur contenu ni leurs pratiques et ne peut être tenue responsable de leur utilisation.",
+        listTitle: "Avant de consulter un site tiers :",
+        listItems: ["Prenez connaissance de ses conditions d’utilisation", "Vérifiez sa politique de confidentialité"],
     },
     {
         id: "saven",
-        question: "Do you offer custom solutions or only predefined packages?",
-        answer: "We specialize in branding, web design, UI/UX, digital marketing, SEO, PPC, content creation, and social media management.",
-        listTitle: "Our branding packages typically include:",
-        listItems: ["UI/UX Design", "Web & Branding", "Digital Marketing"],
+        question: "Mise à jour des mentions",
+        answer: "Ces mentions légales peuvent être mises à jour en fonction de l’évolution du site, de l’activité d’ITEC Solutions ou des informations réglementaires à compléter.",
+        listTitle: "Dernière mise à jour :",
+        listItems: ["À renseigner avant mise en ligne définitive"],
     },
 ];
 
@@ -114,10 +114,10 @@ const FaqSection = () => {
                         <div className="tp-faq-wrap">
                             <div className="text-center mb-45">
                                 <span className={`tp-section-subtitle tp-ff-heading fw-500 fs-16 mb-20 ${subtitleClass}`}>
-                                    <span className="borders d-inline-block"></span>General Questions
+                                    <span className="borders d-inline-block"></span>Informations du site
                                 </span>
                                 <h2 className={`tp-section-title fs-70 fs-xl-60 fs-lg-50 fs-xs-40 ${titleClass}`}>
-                                    Ask & Question
+                                    Mentions légales
                                 </h2>
                             </div>
                             <div className="tp-custom-accordion">
@@ -142,11 +142,7 @@ const FaqSection = () => {
                                                         aria-controls={collapseId}
                                                     >
                                                         {item.question}
-                                                        <span className="accordion-btn">
-                                                            <svg width="7" height="6" viewBox="0 0 7 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M2.7 4.93333L0.2 1.6C-0.294427 0.940764 0.175955 0 1 0H6C6.82405 0 7.29443 0.940764 6.8 1.6L4.3 4.93333C3.9 5.46667 3.1 5.46667 2.7 4.93333Z" fill="currentColor" />
-                                                            </svg>
-                                                        </span>
+                                                        <span className="accordion-btn" aria-hidden="true"></span>
                                                     </button>
                                                 </h2>
                                                 <div

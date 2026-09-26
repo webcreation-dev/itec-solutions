@@ -8,32 +8,32 @@ import Image from "next/image";
 const slides = [
     {
         id: 1,
-        text: "savings since 2008",
+        text: "Ingénierie",
         stroke: true,
     },
     {
         id: 2,
-        text: "Aleric has generated $250M",
+        text: "Construction",
         stroke: false,
     },
     {
         id: 3,
-        text: "savings since 2008",
+        text: "Développement immobilier",
         stroke: true,
     },
     {
         id: 4,
-        text: "Aleric has generated $250M",
+        text: "Maîtrise d’œuvre",
         stroke: false,
     },
     {
         id: 5,
-        text: "savings since 2008",
+        text: "Ingénierie",
         stroke: true,
     },
     {
         id: 6,
-        text: "Aleric has generated $250M",
+        text: "Construction",
         stroke: false,
     },
 ];

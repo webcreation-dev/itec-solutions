@@ -16,7 +16,7 @@ const AboutCreativeVideo = () => {
                     <div className="col-xxl-4 col-xl-5 col-lg-6">
                         <div className="tp-video-content tp-bg-common-black">
                             <h4 className="tp-text-common-white fw-500 fs-25 fs-xs-20 lh-36 mb-50">
-                                We empower brands to scale, innovate, and thrive in an ever-changing digital landscape.
+                                ITEC accompagne les projets avec une vision globale, de l’étude initiale à la réalisation, en France comme en Afrique de l’Ouest.
                             </h4>
                             <span className="tp-hero-bottom-border mb-40">
                                 <svg height="6" viewBox="0 0 344 6" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -32,8 +32,8 @@ const AboutCreativeVideo = () => {
                                     </span>
                                 </button>
                                 <p className="tp-ff-heading lh-110-per mb-0 fw-700 fs-18 tp-text-common-white">
-                                    We’re Global Brand<br />
-                                    Digital Agency.
+                                    ITEC Solutions<br />
+                                    Ingénierie · Construction · Développement
                                 </p>
                             </div>
                         </div>

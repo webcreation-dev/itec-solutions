@@ -9,24 +9,21 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const testimonials = [
     {
         id: 1,
-        text: `Aleric began as a collaborative 
-architectural and landscape workshop,
-and has remained true to its trans disciplinary way 
-of thinking since its inception`,
+        text: `Chaque opération est abordée avec une vision globale :
+faire dialoguer le programme, les contraintes techniques,
+les usages et les engagements de réalisation.`,
     },
     {
         id: 2,
-        text: `Aleric began as a collaborative 
-architectural and landscape workshop,
-and has remained true to its trans disciplinary way 
-of thinking since its inception`,
+        text: `Notre rôle est de donner à chaque projet un cadre clair,
+de coordonner les expertises et de maintenir le cap
+sur la qualité, les délais et le budget.`,
     },
     {
         id: 3,
-        text: `Aleric began as a collaborative 
-architectural and landscape workshop,
-and has remained true to its trans disciplinary way 
-of thinking since its inception`,
+        text: `ITEC construit des partenariats de confiance avec
+les maîtres d’ouvrage, architectes et entreprises
+pour faire émerger des projets utiles et durables.`,
     },
 ];
 

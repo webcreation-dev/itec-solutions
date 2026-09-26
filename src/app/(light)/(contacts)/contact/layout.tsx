@@ -1,4 +1,4 @@
-import { ArchitectureHeader, HeaderSearch, MainFooter } from "@/components/layout";
+import { ArchitectureFooter, ArchitectureHeader, HeaderSearch } from "@/components/layout";
 import { ClientProviders, ThemeProvider } from "@/providers";
 
 export default function ContactLayout({
@@ -14,7 +14,7 @@ export default function ContactLayout({
                 <div id="smooth-wrapper">
                     <div id="smooth-content">
                         {children}
-                        <MainFooter />
+                        <ArchitectureFooter />
                     </div>
                 </div>
             </ClientProviders>

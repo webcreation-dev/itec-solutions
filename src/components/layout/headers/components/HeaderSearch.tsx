@@ -17,8 +17,8 @@ const HeaderSearch = () => {
                             <div className="tp-search-top d-flex justify-content-between align-items-center">
                                 <div className="tp-header-logo tp-search-logo">
                                     <Link href="/">
-                                        <Image className="logo-1" width={140} height={29} src="/assets/img/logo/logo.png" alt="logo" />
-                                        <Image className="logo-2" width={140} height={29} src="/assets/img/logo/logo-white.png" alt="logo white" />
+                                        <Image className="logo-1" width={178} height={89} src="/assets/img/logo/itec-logo.png" alt="ITEC Ingénierie Construction Développement" />
+                                        <Image className="logo-2" width={178} height={89} src="/assets/img/logo/itec-logo.png" alt="ITEC Ingénierie Construction Développement" />
                                     </Link>
                                 </div>
                                 <button onClick={toggleSearchModal} className="tp-search-close">

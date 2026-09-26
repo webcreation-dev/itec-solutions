@@ -74,12 +74,12 @@ const ServiceDetails = () => {
             question: "En quoi consistent les études techniques ?",
             answer: (
                 <>
-                    <p>Branding is the process of creating a unique identity for your business, <span className={faqSpanClass}>including visuals, messaging, and positioning.</span> It helps build trust, recognition, and emotional connections with your audience.</p>
-                    <span className="tp-faq-list-title d-inline-block mb-10">Our branding packages typically include:</span>
+                    <p>Les études techniques permettent de <span className={faqSpanClass}>valider la faisabilité, anticiper les contraintes et définir les solutions adaptées</span> avant le démarrage des travaux.</p>
+                    <span className="tp-faq-list-title d-inline-block mb-10">Elles peuvent notamment couvrir :</span>
                     <ul>
-                        <li>1. Brand Strategy & Positioning.</li>
-                        <li>2. Logo & Visual Identity</li>
-                        <li>3. Marketing & Collateral Design</li>
+                        <li>1. La faisabilité technique et réglementaire.</li>
+                        <li>2. Les estimations prévisionnelles.</li>
+                        <li>3. La coordination des expertises nécessaires.</li>
                     </ul>
                 </>
             )
@@ -88,12 +88,12 @@ const ServiceDetails = () => {
             question: "Quel est le rôle de la maîtrise d’œuvre ?",
             answer: (
                 <>
-                    <p>Branding is the process of creating a unique identity for your business, <span className={faqSpanClass}>including visuals, messaging, and positioning.</span> It helps build trust, recognition, and emotional connections with your audience.</p>
-                    <span className="tp-faq-list-title d-inline-block mb-10">Our branding packages typically include:</span>
+                    <p>La maîtrise d’œuvre organise les études et la réalisation pour <span className={faqSpanClass}>maintenir le cap sur la qualité, les délais et le budget</span> du projet.</p>
+                    <span className="tp-faq-list-title d-inline-block mb-10">Notre intervention comprend :</span>
                     <ul>
-                        <li>1. Brand Strategy & Positioning.</li>
-                        <li>2. Logo & Visual Identity</li>
-                        <li>3. Marketing & Collateral Design</li>
+                        <li>1. La coordination des intervenants.</li>
+                        <li>2. Le suivi des décisions techniques.</li>
+                        <li>3. L’accompagnement jusqu’à la réception.</li>
                     </ul>
                 </>
             )
@@ -102,12 +102,12 @@ const ServiceDetails = () => {
             question: "Comment ITEC suit-il les travaux ?",
             answer: (
                 <>
-                    <p>Branding is the process of creating a unique identity for your business, <span className={faqSpanClass}>including visuals, messaging, and positioning.</span> It helps build trust, recognition, and emotional connections with your audience.</p>
-                    <span className="tp-faq-list-title d-inline-block mb-10">Our branding packages typically include:</span>
+                    <p>Le suivi repose sur une présence régulière et des points d’avancement partagés afin de <span className={faqSpanClass}>traiter les sujets au bon moment et garder une information claire.</span></p>
+                    <span className="tp-faq-list-title d-inline-block mb-10">Le dispositif de suivi prévoit :</span>
                     <ul>
-                        <li>1. Brand Strategy & Positioning.</li>
-                        <li>2. Logo & Visual Identity</li>
-                        <li>3. Marketing & Collateral Design</li>
+                        <li>1. Des réunions de chantier structurées.</li>
+                        <li>2. Un suivi des actions et des arbitrages.</li>
+                        <li>3. Un contrôle de l’avancement des travaux.</li>
                     </ul>
                 </>
             )
@@ -116,12 +116,12 @@ const ServiceDetails = () => {
             question: "Intervenez-vous en génie civil ?",
             answer: (
                 <>
-                    <p>Branding is the process of creating a unique identity for your business, <span className={faqSpanClass}>including visuals, messaging, and positioning.</span> It helps build trust, recognition, and emotional connections with your audience.</p>
-                    <span className="tp-faq-list-title d-inline-block mb-10">Our branding packages typically include:</span>
+                    <p>Oui. Selon la nature de l’opération, ITEC peut mobiliser les compétences nécessaires pour les <span className={faqSpanClass}>ouvrages, infrastructures et interfaces techniques</span> associés au projet.</p>
+                    <span className="tp-faq-list-title d-inline-block mb-10">Notre approche s’appuie sur :</span>
                     <ul>
-                        <li>1. Brand Strategy & Positioning.</li>
-                        <li>2. Logo & Visual Identity</li>
-                        <li>3. Marketing & Collateral Design</li>
+                        <li>1. L’analyse des contraintes du site.</li>
+                        <li>2. La recherche de solutions fiables.</li>
+                        <li>3. La coordination avec les entreprises spécialisées.</li>
                     </ul>
                 </>
             )
@@ -130,12 +130,12 @@ const ServiceDetails = () => {
             question: "Comment démarre un projet avec ITEC ?",
             answer: (
                 <>
-                    <p>Branding is the process of creating a unique identity for your business, <span className={faqSpanClass}>including visuals, messaging, and positioning.</span> It helps build trust, recognition, and emotional connections with your audience.</p>
-                    <span className="tp-faq-list-title d-inline-block mb-10">Our branding packages typically include:</span>
+                    <p>Tout commence par un échange pour comprendre vos objectifs, le site et les contraintes du programme. Nous proposons ensuite <span className={faqSpanClass}>un cadre d’intervention adapté à votre projet.</span></p>
+                    <span className="tp-faq-list-title d-inline-block mb-10">Les premières étapes sont :</span>
                     <ul>
-                        <li>1. Brand Strategy & Positioning.</li>
-                        <li>2. Logo & Visual Identity</li>
-                        <li>3. Marketing & Collateral Design</li>
+                        <li>1. L’analyse de votre besoin.</li>
+                        <li>2. La définition du périmètre d’étude.</li>
+                        <li>3. La planification des premières actions.</li>
                     </ul>
                 </>
             )
@@ -144,12 +144,12 @@ const ServiceDetails = () => {
             question: "Peut-on demander un accompagnement sur mesure ?",
             answer: (
                 <>
-                    <p>Branding is the process of creating a unique identity for your business, <span className={faqSpanClass}>including visuals, messaging, and positioning.</span> It helps build trust, recognition, and emotional connections with your audience.</p>
-                    <span className="tp-faq-list-title d-inline-block mb-10">Our branding packages typically include:</span>
+                    <p>Oui. Chaque opération possède ses propres enjeux. Notre accompagnement est construit pour <span className={faqSpanClass}>réunir les expertises utiles, au rythme et au niveau de détail appropriés.</span></p>
+                    <span className="tp-faq-list-title d-inline-block mb-10">Il peut porter sur :</span>
                     <ul>
-                        <li>1. Brand Strategy & Positioning.</li>
-                        <li>2. Logo & Visual Identity</li>
-                        <li>3. Marketing & Collateral Design</li>
+                        <li>1. Une mission ponctuelle d’étude ou de conseil.</li>
+                        <li>2. La coordination d’une phase de projet.</li>
+                        <li>3. Un accompagnement global jusqu’à la livraison.</li>
                     </ul>
                 </>
             )
@@ -298,16 +298,16 @@ const ServiceDetails = () => {
                                         <path d="M28 46H44C44.5304 46 45.0391 45.7893 45.4142 45.4142C45.7893 45.0391 46 44.5304 46 44V28C46 27.4696 45.7893 26.9609 45.4142 26.5858C45.0391 26.2107 44.5304 26 44 26H35V32C35 33.0609 34.5786 34.0783 33.8284 34.8284C33.0783 35.5786 32.0609 36 31 36H26V44C26 44.5304 26.2107 45.0391 26.5858 45.4142C26.9609 45.7893 27.4696 46 28 46ZM12 53H48V55H12V53Z" fill={offerSvgFill} />
                                     </svg>
                                 </span>
-                                <h4 className={offerCardH4Class}>Brand Strategy & Positioning</h4>
+                                <h4 className={offerCardH4Class}>Études de faisabilité<br /> & programmation</h4>
                                 <span className="tp-about-process-2-border d-block mb-20">
                                     <svg viewBox="0 0 354 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M5 2.5L0 0.113249V5.88675L5 3.5V2.5ZM349 3.5L354 5.88675V0.113249L349 2.5V3.5ZM4.5 3.5H349.5V2.5H4.5V3.5Z" fill={offerSvgStroke} fillOpacity={offerSvgOpacity} />
                                     </svg>
                                 </span>
                                 <ul>
-                                    <li>+ Brand Discovery</li>
-                                    <li>+ Brand Voice & Messaging</li>
-                                    <li>+ Brand Positioning Strategy</li>
+                                    <li>+ Analyse du site et des contraintes</li>
+                                    <li>+ Définition du programme</li>
+                                    <li>+ Estimation des premières orientations</li>
                                 </ul>
                             </div>
                         </div>
@@ -325,16 +325,16 @@ const ServiceDetails = () => {
                                         </defs>
                                     </svg>
                                 </span>
-                                <h4 className={offerCardH4Class}>Logo & Visual Identity</h4>
+                                <h4 className={offerCardH4Class}>Conception technique<br /> & coordination</h4>
                                 <span className="tp-about-process-2-border d-block mb-20">
                                     <svg viewBox="0 0 354 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M5 2.5L0 0.113249V5.88675L5 3.5V2.5ZM349 3.5L354 5.88675V0.113249L349 2.5V3.5ZM4.5 3.5H349.5V2.5H4.5V3.5Z" fill={offerSvgStroke} fillOpacity={offerSvgOpacity} />
                                     </svg>
                                 </span>
                                 <ul>
-                                    <li>+ Brand Discovery</li>
-                                    <li>+ Brand Voice & Messaging</li>
-                                    <li>+ Brand Positioning Strategy</li>
+                                    <li>+ Avant-projet et choix techniques</li>
+                                    <li>+ Coordination des bureaux d’études</li>
+                                    <li>+ Préparation des dossiers travaux</li>
                                 </ul>
                             </div>
                         </div>
@@ -352,9 +352,9 @@ const ServiceDetails = () => {
                                     </svg>
                                 </span>
                                 <ul>
-                                    <li>+ Brand Discovery</li>
-                                    <li>+ Brand Voice & Messaging</li>
-                                    <li>+ Brand Positioning Strategy</li>
+                                    <li>+ Diagnostic des besoins du projet</li>
+                                    <li>+ Scénarios d’aménagement</li>
+                                    <li>+ Aide à la décision</li>
                                 </ul>
                             </div>
                         </div>
@@ -381,7 +381,7 @@ const ServiceDetails = () => {
                         <div className="col-lg-12">
                             <div className="tp-process-pp-title-inner mb-30 text-center tp_fade_anim" data-delay=".3">
                                 <span className="tp-section-subtitle tp-section-subtitle-white tp-ff-heading fw-500 tp-text-common-white fs-16 mb-20">
-                                    <span className="borders d-inline-block"></span>Working Process
+                                    <span className="borders d-inline-block"></span>Notre processus
                                 </span>
                                 <h2 className="fs-70 fs-sm-40 tp-text-common-white">Une méthode claire<br /> à chaque étape</h2>
                             </div>
@@ -396,41 +396,41 @@ const ServiceDetails = () => {
                         <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="tp-process-pp-item text-center mb-30 tp_fade_anim" data-delay=".3" data-fade-from="left">
                                 <span className="tp-process-pp-count fw-600 fs-18 mb-40 tp-text-common-black d-inline-block tp-bg-theme-primary">01</span>
-                                <h3 className="fs-25 tp-text-common-white lh-140-per mb-20">Research &<br /> Analysis</h3>
-                                <p className="fs-18 lh-140-per tp-text-grey-2">Conduct user research (interviews, surveys, analytics).</p>
+                                <h3 className="fs-25 tp-text-common-white lh-140-per mb-20">Analyse du besoin<br /> & du site</h3>
+                                <p className="fs-18 lh-140-per tp-text-grey-2">Comprendre le programme, les usages et les contraintes de l’opération.</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="tp-process-pp-item text-center mb-30 tp_fade_anim" data-delay=".5" data-fade-from="left">
                                 <span className="tp-process-pp-count fw-600 fs-18 mb-40 tp-text-common-black d-inline-block tp-bg-theme-primary">02</span>
                                 <h3 className="fs-25 tp-text-common-white lh-140-per mb-20">Études &<br /> coordination</h3>
-                                <p className="fs-18 lh-140-per tp-text-grey-2">Transform wireframes into high-fidelity UI designs.</p>
+                                <p className="fs-18 lh-140-per tp-text-grey-2">Définir les solutions et organiser les échanges entre les intervenants.</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="tp-process-pp-item text-center mb-30 tp_fade_anim" data-delay=".7" data-fade-from="left">
                                 <span className="tp-process-pp-count fw-600 fs-18 mb-40 tp-text-common-black d-inline-block tp-bg-theme-primary">03</span>
-                                <h3 className="fs-25 tp-text-common-white lh-140-per mb-20">Testing &<br /> Iteration</h3>
-                                <p className="fs-18 lh-140-per tp-text-grey-2">Conduct usability testing to gather user feedback.</p>
+                                <h3 className="fs-25 tp-text-common-white lh-140-per mb-20">Pilotage<br /> & ajustements</h3>
+                                <p className="fs-18 lh-140-per tp-text-grey-2">Suivre les arbitrages, les coûts, les délais et les points techniques.</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="tp-process-pp-item text-center mb-30 tp_fade_anim" data-delay=".9" data-fade-from="left">
                                 <span className="tp-process-pp-count fw-600 fs-18 mb-40 tp-text-common-black d-inline-block tp-bg-theme-primary">04</span>
-                                <h3 className="fs-25 tp-text-common-white lh-140-per mb-20">Prepare for<br /> Delivery</h3>
-                                <p className="fs-18 lh-140-per tp-text-grey-2">Track performance using analytics and user feedback.</p>
+                                <h3 className="fs-25 tp-text-common-white lh-140-per mb-20">Réception<br /> & livraison</h3>
+                                <p className="fs-18 lh-140-per tp-text-grey-2">Accompagner les dernières vérifications pour une mise en service maîtrisée.</p>
                             </div>
                         </div>
                         <div className="col-lg-12">
                             <div className="tp-skill-wd-bottom text-center mt-35 tp_fade_anim" data-delay=".5" data-fade-from="bottom" data-ease="bounce">
                                 <p className="tp-skill-wd-para tp-ff-heading fw-500 fs-18 tp-text-common-white">
-                                    Don’t hesitate collaborate with expertise-{" "}
+                                    Parlons de votre projet et de ses enjeux -{" "}
                                     <SmartLink
                                         href="/contact"
                                         className="ml-40 d-inline-block lh-0 tp-round-26 fs-15 text-uppercase ls-0 tp-btn-switch-animation tp-text-theme-primary tp-ff-heading fw-500"
                                     >
                                         <span className="d-flex align-items-center justify-content-center">
-                                            <span className="btn-text">Let’s Talk</span>
+                                            <span className="btn-text">Nous contacter</span>
                                             <span className="btn-icon">
                                                 <svg width="25" height="10" viewBox="0 0 25 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M18.675 9.91054L24.72 5.63362C24.806 5.56483 24.8766 5.47086 24.9255 5.36023C24.9744 5.2496 25 5.12579 25 5C25 4.87421 24.9744 4.7504 24.9255 4.63977C24.8766 4.52914 24.806 4.43518 24.72 4.36638L18.675 0.0894619C18.5572 0.0111909 18.4215 -0.0168364 18.2892 0.00979851C18.157 0.0364334 18.0358 0.116215 17.9446 0.236567C17.8535 0.356918 17.7977 0.510993 17.7859 0.674501C17.7742 0.838009 17.8072 1.00165 17.8798 1.13963L19.633 4.26665L0.598757 4.26665C0.439957 4.26665 0.287661 4.34391 0.175371 4.48144C0.0630817 4.61897 0 4.8055 0 5C0 5.1945 0.0630817 5.38103 0.175371 5.51856C0.287661 5.65609 0.439957 5.73335 0.598757 5.73335L19.633 5.73335L17.8798 8.86038C17.8072 8.99835 17.7742 9.16199 17.7859 9.3255C17.7977 9.48901 17.8535 9.64308 17.9446 9.76343C18.0358 9.88378 18.157 9.96357 18.2892 9.9902C18.4215 10.0168 18.5572 9.98881 18.675 9.91054Z" fill="currentColor" />
@@ -461,7 +461,7 @@ const ServiceDetails = () => {
                                     <span className={faqSubtitleClass}>
                                         <span className="borders d-inline-block"></span>Questions fréquentes
                                     </span>
-                                    <h2 className={faqTitleClass}>Ask & Question</h2>
+                                    <h2 className={faqTitleClass}>Vos questions</h2>
                                 </div>
                                 <div className="tp-custom-accordion">
                                     <div className="accordion" id="general_faqaccordion" ref={accordionRef}>
@@ -485,11 +485,7 @@ const ServiceDetails = () => {
                                                             aria-controls={collapseId}
                                                         >
                                                             {item.question}
-                                                            <span className="accordion-btn">
-                                                                <svg width="7" height="6" viewBox="0 0 7 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                    <path d="M2.7 4.93333L0.2 1.6C-0.294427 0.940764 0.175955 0 1 0H6C6.82405 0 7.29443 0.940764 6.8 1.6L4.3 4.93333C3.9 5.46667 3.1 5.46667 2.7 4.93333Z" fill="currentColor" />
-                                                                </svg>
-                                                            </span>
+                                                            <span className="accordion-btn" aria-hidden="true"></span>
                                                         </button>
                                                     </h2>
                                                     <div
