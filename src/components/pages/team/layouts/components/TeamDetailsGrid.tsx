@@ -11,6 +11,10 @@ interface TeamMember {
     speed: string;
 }
 
+interface TeamDetailsGridProps {
+    variant?: "team" | "leadership";
+}
+
 const teamMembers: TeamMember[] = [
     {
         name: "Daniel Scoot",
@@ -38,8 +42,9 @@ const teamMembers: TeamMember[] = [
     },
 ];
 
-const TeamDetailsGrid = () => {
+const TeamDetailsGrid = ({ variant = "team" }: TeamDetailsGridProps) => {
     const isDark = useIsDarkRoute();
+    const isLeadership = variant === "leadership";
 
     const shape1Color = isDark ? "#7D5DFF" : "#C4EE18";
     const shape2Color = isDark ? "#fff" : "#030303";
@@ -48,6 +53,52 @@ const TeamDetailsGrid = () => {
     const nameClass = isDark ? "tp-text-common-white" : "";
     const roleClass = isDark ? "tp-text-grey-2" : "tp-text-grey-1";
     const linkPath = isDark ? "/dark/team-details" : "/team-details";
+    const members = isLeadership
+        ? [{
+            name: "Direction ITEC Solutions",
+            role: "Fondateur · Direction générale",
+            img: "/assets/img/team/thumb.jpg",
+            speed: ".9",
+        }]
+        : teamMembers;
+
+    if (isLeadership) {
+        return (
+            <section className="tp-team-area pt-110 pb-110 itec-leadership-section">
+                <div className="container">
+                    <div className="row align-items-center">
+                        <div className="col-xl-6 col-lg-6 offset-xl-1 offset-lg-1 order-1 order-lg-2">
+                            <div className="tp-team-sa-title-wrap">
+                                <h2 className={`tp-team-sa-title mb-25 tp_fade_anim ${titleClass}`} data-delay=".3">Notre fondateur</h2>
+                                <div className="tp-service-2-para tp-techonolgy-para tp-team-sa-para tp_fade_anim" data-delay=".5">
+                                    <p className={`fs-18 ${pClass}`}>
+                                        ITEC Solutions est porté par une direction engagée, qui fédère les expertises et accompagne chaque projet avec exigence, proximité et vision durable.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-xl-3 col-lg-4 col-md-6 mt-50 mt-lg-0 order-2 order-lg-1">
+                            <div className="tp-team-sa-thumb tp--hover-item p-relative">
+                                <div
+                                    className="tp--hover-img"
+                                    data-displacement="/assets/img/team/thumb.jpg"
+                                    data-intensity="0.6"
+                                    data-speedin="1"
+                                    data-speedout="1"
+                                >
+                                    <img className="w-100" src="/assets/img/team/thumb.jpg" alt="Direction ITEC Solutions" />
+                                </div>
+                            </div>
+                            <div className="tp-team-sa-content text-center mt-20">
+                                <h5 className={`tp-ff-heading fw-500 fs-25 mb-5 ${nameClass}`}>Direction ITEC Solutions</h5>
+                                <span className={`fs-16 ${roleClass}`}>Fondateur · Direction générale</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        );
+    }
 
     return (
         <div className="tp-team-area pt-110 pb-50">
@@ -77,7 +128,7 @@ const TeamDetailsGrid = () => {
                             </div>
                         </div>
                     </div>
-                    {teamMembers.map((member, index) => (
+                    {members.map((member, index) => (
                         <div key={index} className="col-lg-3 col-md-6">
                             <div className="tp-team-sa-item mb-90" data-speed={member.speed}>
                                 <div className="tp-team-sa-thumb mb-20 tp--hover-item p-relative">

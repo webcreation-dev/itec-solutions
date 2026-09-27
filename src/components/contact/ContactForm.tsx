@@ -88,6 +88,21 @@ const ContactForm = () => {
                                 </p>
                             </div>
                             <div className="tp-contact-number mb-70">
+                                <div className="d-flex align-items-center mb-15">
+                                    <span className="tp-contact-icon mr-15">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                            <path d="M8 0C4.91 0 2.4 2.51 2.4 5.6C2.4 9.8 8 16 8 16C8 16 13.6 9.8 13.6 5.6C13.6 2.51 11.09 0 8 0ZM8 7.7C6.84 7.7 5.9 6.76 5.9 5.6C5.9 4.44 6.84 3.5 8 3.5C9.16 3.5 10.1 4.44 10.1 5.6C10.1 6.76 9.16 7.7 8 7.7Z" fill="#030303" />
+                                        </svg>
+                                    </span>
+                                    <a
+                                        className="tp-contact-email"
+                                        href="https://maps.app.goo.gl/WhnNV4vnB2juc1zEA"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        France · Haute-Savoie
+                                    </a>
+                                </div>
                                 <div className="d-flex align-items-center mb-15 mr-20">
                                     <span className="tp-contact-icon mr-15">
                                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">

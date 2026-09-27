@@ -253,6 +253,28 @@
     z-index: 1;
 }
 
+/* Vision : rendre le bloc Direction lisible sans le surdimensionner sur mobile. */
+@media (max-width: 767px) {
+    .itec-leadership-section {
+        padding-top: 64px !important;
+        padding-bottom: 64px !important;
+    }
+
+    .itec-leadership-section .tp-team-sa-title {
+        font-size: clamp(38px, 12vw, 54px) !important;
+        line-height: 1.05 !important;
+    }
+
+    .itec-leadership-section .tp-team-sa-para p {
+        font-size: 17px !important;
+        line-height: 1.45 !important;
+    }
+
+    .itec-leadership-section .tp-team-sa-content h5 {
+        font-size: 21px !important;
+    }
+}
+
 /* FAQ Ingénierie : état fermé (+) / état ouvert (−). */
 #general_faqaccordion .tp-faq-btn .accordion-btn,
 #general_faqaccordiontwo .tp-faq-btn .accordion-btn {

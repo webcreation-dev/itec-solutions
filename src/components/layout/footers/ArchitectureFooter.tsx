@@ -5,6 +5,7 @@ import { HeroArrowRightIcon } from "@/svg";
 import { getCurrentYear } from "@/utils";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const quickLinks = [
     { label: "Vision", href: "/vision" },
@@ -16,6 +17,8 @@ const quickLinks = [
 
 const ArchitectureFooter = () => {
     const isDarkTheme = useIsDarkRoute();
+    const pathname = usePathname();
+    const showProjectCta = pathname === "/";
 
     const footerClassesName = {
         sectionBg: !isDarkTheme ? "/assets/img/update/footer/bg.jpg" : undefined,
@@ -29,7 +32,7 @@ const ArchitectureFooter = () => {
             style={{ backgroundImage: `url(${footerClassesName.sectionBg})`, backgroundColor: footerClassesName.sectionBgColor }}
         >
             {/* ================= CTA AREA ================= */}
-            <div className="al-cta-archi-area pt-150 pb-120">
+            {showProjectCta && <div className="al-cta-archi-area pt-150 pb-120">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
@@ -88,7 +91,7 @@ const ArchitectureFooter = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>}
             {/* ================= FOOTER AREA ================= */}
             <div className="al-footer-archi-area al-footer-archi-main-border pt-100 pb-50">
                 <div className="container">
