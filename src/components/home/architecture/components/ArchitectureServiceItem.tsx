@@ -2,7 +2,9 @@ import { SmartLink } from "@/components/common";
 import { ServiceArrowIconFour } from "@/svg";
 import { ServiceItemProps } from "@/types";
 
-const ArchitectureServiceItem: React.FC<ServiceItemProps> = ({ delay, icon: Icon, title, description,type,slug }) => {
+const ArchitectureServiceItem: React.FC<ServiceItemProps> = ({ delay, icon: Icon, title, description, slug }) => {
+    const destination = slug === "developpement-immobilier" ? "/construction" : "/ingenierie";
+
     return (
         <div className="col-lg-3 col-md-6 col-sm-6 mb-30">
             <div
@@ -15,7 +17,7 @@ const ArchitectureServiceItem: React.FC<ServiceItemProps> = ({ delay, icon: Icon
                 </div>
                 <div className="al-service-archi-content">
                     <h3 className="al-service-archi-title">
-                        <SmartLink href={`/service-details/${type}/${slug}`}>
+                        <SmartLink href={destination}>
                             {title.split(" ").map((word, i) => (
                                 <span key={i}>
                                     {word}
@@ -27,7 +29,7 @@ const ArchitectureServiceItem: React.FC<ServiceItemProps> = ({ delay, icon: Icon
                     <p className="mb-35">{description}</p>
                     <SmartLink
                         className="al-service-archi-link"
-                        href={`/service-details/${type}/${slug}`}
+                        href={destination}
                     >
                         <span>
                             <ServiceArrowIconFour />

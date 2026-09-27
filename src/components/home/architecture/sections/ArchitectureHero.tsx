@@ -1,8 +1,10 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import { Autoplay, EffectFade } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { HeaderButtonArrow } from "@/svg";
 
 const socialLinks = [
     { icon: "fa-linkedin", href: "#" },
@@ -13,23 +15,35 @@ const socialLinks = [
 // Images provisoires du template : elles seront remplacées par les visuels ITEC.
 const heroSlides = [
     {
-        image: "/assets/img/update/hero/archi/bg.jpg",
-        title: "Les Gets Écolodge",
-        detail: "Ensemble résidentiel de chalets · Livré en 2022",
+        image: "/assets/projets/umami.webp",
+        title: "Umami",
+        detail: "Genève · Une adresse de goût, du studio au 5 pièces",
+        href: "/references",
     },
     {
-        image: "/assets/img/update-2/portfolio/home-2/banner.jpg",
-        title: "Résidence Horizon",
-        detail: "Conception et réalisation d’un programme résidentiel",
+        image: "/assets/projets/st%20joriz.jpg",
+        title: "TAO",
+        detail: "Saint-Jorioz, 377 route du Berlet · 25 logements du 2 au 4 pièces",
+        href: "/references",
     },
     {
-        image: "/assets/img/portfolio/details/banner.jpg",
-        title: "Domaine des Palmiers",
-        detail: "Développement immobilier · Études en cours",
+        image: "/assets/projets/annemmasse.jpg",
+        title: "Luminence Garden",
+        detail: "Annemasse, 18 rue de Valeury · 75 logements du 2 au 5 pièces",
+        href: "/references",
+    },
+    {
+        image: "/assets/projets/ayze%20bonneville.jpg",
+        title: "Privilège",
+        detail: "Ayze / Bonneville, impasse de Pertus · 54 appartements du studio au 4 pièces duplex",
+        href: "/references",
     },
 ];
 
 const ArchitectureHero = () => {
+    const [activeSlide, setActiveSlide] = useState(0);
+    const currentProject = heroSlides[activeSlide];
+
     return (
         <div className="al-hero-archi-area al-hero-archi-ptb tp-section-spacing bg-position bg-position-md-left p-relative z-index-1">
             <Swiper
@@ -38,9 +52,11 @@ const ArchitectureHero = () => {
                 slidesPerView={1}
                 loop
                 effect="fade"
-                speed={1100}
+                fadeEffect={{ crossFade: true }}
+                speed={850}
                 autoplay={{ delay: 5000, disableOnInteraction: false }}
                 allowTouchMove={false}
+                onSlideChange={(swiper) => setActiveSlide(swiper.realIndex)}
             >
                 {heroSlides.map((slide) => (
                     <SwiperSlide key={slide.image}>
@@ -48,18 +64,24 @@ const ArchitectureHero = () => {
                             className="itec-architecture-hero-slide"
                             style={{ backgroundImage: `url(${slide.image})` }}
                         >
-                            <div className="itec-architecture-hero-caption">
-                                <span>{slide.title}</span>
-                                <p>{slide.detail}</p>
-                            </div>
                         </div>
                     </SwiperSlide>
                 ))}
             </Swiper>
+            <div className="itec-architecture-hero-caption">
+                <span className="itec-architecture-hero-project-title">{currentProject.title}</span>
+                <p className="itec-architecture-hero-project-detail">{currentProject.detail}</p>
+                <Link className="itec-architecture-hero-project-link tp-btn-switch-animation" href={currentProject.href}>
+                    <span className="d-flex align-items-center justify-content-center">
+                        <span className="btn-text">Voir le projet</span>
+                        <span className="btn-icon"><HeaderButtonArrow /></span>
+                        <span className="btn-icon"><HeaderButtonArrow /></span>
+                    </span>
+                </Link>
+            </div>
             <div className="container-fluid container-1750">
                 <div className="row">
                     <div className="col-lg-12">
-                        <img className="al-hero-archi-shape d-none d-xl-block" data-lag="0.2" data-stagger="0.08" src="/assets/img/update/hero/archi/shape.png" alt="shape" />
                         <div className="al-hero-archi-social d-none d-xxl-block">
                             <ul>
                                 <li>

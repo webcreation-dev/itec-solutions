@@ -6,6 +6,7 @@ interface ProjectItem {
     year: string;
     title: React.ReactNode;
     colClass: string;
+    href: string;
 }
 interface ArchitectureProjectItemProps {
     item: ProjectItem;
@@ -28,12 +29,12 @@ const ArchitectureProjectItem: React.FC<ArchitectureProjectItemProps> = ({ item 
                         <h5>- {item.year}</h5>
                     </div>
                     <h3 className="al-project-archi-title-sm m-0">
-                        <SmartLink href="portfolio-details">
+                        <SmartLink href={item.href}>
                             {item.title}
                         </SmartLink>
                     </h3>
                     <div className="al-project-archi-icon">
-                        <SmartLink className="tp-left-right" href="/portfolio-details">
+                        <SmartLink className="tp-left-right" href={item.href}>
                             <div className="tp-arrow-angle">
                                 <HeroArrowRightIcon />
                             </div>

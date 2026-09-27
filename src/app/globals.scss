@@ -137,8 +137,17 @@
     background-size: cover;
 }
 
+.itec-architecture-hero-slide::after {
+    position: absolute;
+    inset: 0;
+    content: "";
+    background: linear-gradient(0deg, rgba(0, 0, 0, .58) 0%, rgba(0, 0, 0, .12) 38%, transparent 68%);
+    pointer-events: none;
+}
+
 .itec-architecture-hero-caption {
     position: absolute;
+    z-index: 1;
     left: clamp(24px, 7vw, 130px);
     bottom: clamp(28px, 6vw, 105px);
     max-width: min(440px, calc(100% - 48px));
@@ -147,19 +156,71 @@
     text-shadow: 0 2px 18px rgba(0, 0, 0, .5);
 }
 
-.itec-architecture-hero-caption span {
+.itec-architecture-hero-caption .itec-architecture-hero-project-title {
     display: block;
-    margin-bottom: 7px;
-    font-size: clamp(21px, 2vw, 32px);
-    font-weight: 600;
+    margin-bottom: 10px;
+    color: #fff !important;
+    font-size: clamp(30px, 2.8vw, 46px) !important;
+    font-weight: 600 !important;
+    line-height: 1.1 !important;
     letter-spacing: -.03em;
 }
 
-.itec-architecture-hero-caption p {
+.itec-architecture-hero-caption .itec-architecture-hero-project-detail {
     margin: 0;
-    font-size: 14px;
-    line-height: 1.45;
-    font-weight: 500;
+    color: #fff !important;
+    font-size: clamp(16px, 1.25vw, 20px) !important;
+    line-height: 1.45 !important;
+    font-weight: 400 !important;
+}
+
+.itec-architecture-hero-project-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 142px;
+    min-height: 36px;
+    margin-top: 18px;
+    padding: 0;
+    border: 1px solid #35b8c4;
+    background: #35b8c4;
+    color: #fff;
+    font-size: 11px !important;
+    line-height: 1 !important;
+    font-weight: 700;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    transition: .25s ease;
+}
+
+.itec-architecture-hero-project-link .btn-icon {
+    margin-right: 3px;
+}
+
+.itec-architecture-hero-project-link .btn-text {
+    color: #fff !important;
+    font-size: 11px !important;
+    line-height: 1 !important;
+    white-space: nowrap !important;
+}
+
+.itec-architecture-hero-project-link .btn-icon svg {
+    width: 20px;
+    height: 8px;
+}
+
+.itec-architecture-hero-project-link:hover {
+    border-color: #fff;
+    background: #fff;
+    color: #263d4a;
+}
+
+.itec-architecture-hero-project-link:hover .btn-text,
+.itec-architecture-hero-project-link:hover .btn-icon,
+.itec-architecture-hero-project-link:hover .btn-icon svg,
+.itec-architecture-hero-project-link:hover .btn-icon svg path {
+    color: #263d4a !important;
+    fill: #263d4a !important;
 }
 
 /* La hauteur d'origine était donnée par le grand titre, désormais retiré. */

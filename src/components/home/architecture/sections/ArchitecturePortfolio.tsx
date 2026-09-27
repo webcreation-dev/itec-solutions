@@ -9,6 +9,7 @@ const projects = [
             </>
         ),
         colClass: "col-xxl-4 col-xl-6 col-lg-6",
+        href: "/ingenierie",
     },
     {
         img: "/assets/img/update/project/01.jpg",
@@ -19,6 +20,7 @@ const projects = [
             </>
         ),
         colClass: "/col-xxl-8 col-xl-6 col-lg-6",
+        href: "/construction",
     },
     {
         img: "/assets/img/update/project/02.jpg",
@@ -29,6 +31,7 @@ const projects = [
             </>
         ),
         colClass: "col-xxl-8 col-xl-6 col-lg-6",
+        href: "/construction",
     },
     {
         img: "/assets/img/update/project/03.jpg",
@@ -39,6 +42,7 @@ const projects = [
             </>
         ),
         colClass: "col-xxl-4 col-xl-6 col-lg-6",
+        href: "/references",
     },
 ];
 
