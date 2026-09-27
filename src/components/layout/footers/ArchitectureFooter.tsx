@@ -107,8 +107,7 @@ const ArchitectureFooter = () => {
                                             display: "block",
                                             borderRadius: 10,
                                             clipPath: "inset(0 round 10px)",
-                                            border: "1px solid rgba(38, 61, 74, 0.12)",
-                                            boxSizing: "border-box",
+                                            overflow: "hidden",
                                         }}
                                     />
                                 </Link>

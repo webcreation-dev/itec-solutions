@@ -22,8 +22,8 @@ const SecondaryOffcanvas = () => {
                     <div className="tp-offcanvas-2-left-wrap d-flex justify-content-between align-items-center">
                         <div className="tp-offcanvas-2-logo">
                             <Link href="/">
-                                <Image className="logo-1" width={150} height={36} src="/assets/img/logo/logo-white-2.png" alt="logo-white" />
-                                <Image className="logo-2" width={150} height={36} src="/assets/img/logo/logo-black.png" alt="logo-black" />
+                                <Image className="logo-1" width={178} height={89} src="/assets/img/logo/itec-logo.png" alt="ITEC Ingénierie Construction Développement" />
+                                <Image className="logo-2" width={178} height={89} src="/assets/img/logo/itec-logo.png" alt="ITEC Ingénierie Construction Développement" />
                             </Link>
                         </div>
                         <div className="tp-offcanvas-2-close d-md-none text-end">

@@ -30,7 +30,7 @@ const ArchitectureBrand = () => {
     const isDarkTheme = useIsDarkRoute();
 
     const brandClassesName = {
-        sectionBgColor: isDarkTheme ? "#121212" : "#fff0e0",
+        sectionBgColor: isDarkTheme ? "#121212" : "#ffffff",
     }
 
     return (

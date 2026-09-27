@@ -1,12 +1,14 @@
 "use client";
 import { useIsDarkRoute, useStickyHeader } from "@/hooks";
-import { SmartLink } from "@/components/common";
+import { SecondaryOffcanvas, SmartLink } from "@/components/common";
 import HeaderMenus from "./components/HeaderMenu";
+import useGlobalContext from "@/hooks/useContext";
 import { HeaderButtonArrow } from "@/svg";
 import Image from "next/image";
 import Link from "next/link";
 
 const ArchitectureHeader = () => {
+    const { toggleSecondarySidebar } = useGlobalContext();
     const isSticky = useStickyHeader(20);
 
     const isDarkTheme = useIsDarkRoute();
@@ -75,12 +77,22 @@ const ArchitectureHeader = () => {
                                             </span>
                                         </SmartLink>
                                     </div>
+                                    <button
+                                        onClick={toggleSecondarySidebar}
+                                        className="tp-menu-bar tp-header-sidebar-btn tp-header-2-menu-btn d-xl-none ml-20"
+                                        aria-label="Ouvrir le menu"
+                                    >
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </header>
+            <SecondaryOffcanvas />
         </>
     );
 };

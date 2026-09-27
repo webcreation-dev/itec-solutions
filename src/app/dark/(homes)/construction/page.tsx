@@ -1,4 +1,4 @@
-import { ConstructionAbout, ConstructionBrandSlide, ConstructionFaq, ConstructionFunFact, ConstructionHero, ConstructionPortfolio, ConstructionService, ConstructionTestimonial, ConstructionTextSlide, ConstructionTextBanner, ConstructionTextPlan, ConstructionTextTeam, ConstructionTextBlog } from "@/components/home/construction/sections";
+import { ConstructionAbout, ConstructionBrandSlide, ConstructionFaq, ConstructionFunFact, ConstructionHero, ConstructionPortfolio, ConstructionService, ConstructionTextPlan, ConstructionTextTeam, ConstructionTextBlog } from "@/components/home/construction/sections";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -15,9 +15,6 @@ const page = () => {
         <ConstructionFaq/>
         <ConstructionPortfolio/>
         <ConstructionFunFact/>
-        <ConstructionTestimonial/>
-        <ConstructionTextSlide/>
-        <ConstructionTextBanner/>
         <ConstructionTextPlan/>
         <ConstructionTextTeam/>
         <ConstructionTextBlog/>

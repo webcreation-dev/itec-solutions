@@ -95,18 +95,16 @@ export const brand_text_items = [
     {
         id: 5,
         construction: [
-            "Ingénierie",
-            "Construction",
-            "Développement immobilier",
-            "Maîtrise d’œuvre",
-            "Génie civil",
-            "Études techniques",
-            "Ingénierie",
-            "Construction",
-            "Développement immobilier",
-            "Maîtrise d’œuvre",
-            "Génie civil",
-            "Études techniques"
+            "INGÉNIERIE",
+            "CONSTRUCTION",
+            "DÉVELOPPEMENT",
+            "ARCHITECTURE",
+            "IMMOBILIER",
+            "INGÉNIERIE",
+            "CONSTRUCTION",
+            "DÉVELOPPEMENT",
+            "ARCHITECTURE",
+            "IMMOBILIER"
         ]
     }
 ];

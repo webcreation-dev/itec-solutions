@@ -41,6 +41,7 @@ const ConstructionTextPlan = () => {
               <h3
                 className="tp-section-title-clash-600 fs-60 fw-500 mb-0 pb-15 tp_fade_anim"
                 data-delay=".4"
+                style={{ fontSize: "clamp(34px, 6vw, 60px)", lineHeight: 1.08 }}
               >
                 Les étapes d’un programme maîtrisé
               </h3>

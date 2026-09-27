@@ -93,8 +93,11 @@ export const initScrollScaleUp = () => {
       },
     });
 
-    tl.to(section.querySelector(".scale-up"), {
-      scale: 1.15,
+    const image = section.querySelector<HTMLElement>(".scale-up");
+    const scaleTo = image?.dataset.scaleTo ? Number(image.dataset.scaleTo) : 1.15;
+
+    tl.to(image, {
+      scale: scaleTo,
       duration: 1,
     });
   })
@@ -1839,4 +1842,3 @@ export const initPerspectiveSlider = (): void => {
     });
   }
 };
-

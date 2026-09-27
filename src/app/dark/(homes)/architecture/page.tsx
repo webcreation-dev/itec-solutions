@@ -1,4 +1,4 @@
-import { ArchitectureAbout, ArchitectureBlog, ArchitectureBrand, ArchitectureChoose, ArchitectureFact, ArchitectureHero, ArchitecturePortfolio, ArchitectureService } from "@/components/home/architecture/sections";
+import { ArchitectureAbout, ArchitectureBrand, ArchitectureChoose, ArchitectureFact, ArchitectureHero, ArchitecturePortfolio, ArchitectureService } from "@/components/home/architecture/sections";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -15,7 +15,6 @@ const page = () => {
       <ArchitecturePortfolio/>
       <ArchitectureChoose/>
       <ArchitectureBrand/>
-      <ArchitectureBlog/>
     </main>
   );
 };
