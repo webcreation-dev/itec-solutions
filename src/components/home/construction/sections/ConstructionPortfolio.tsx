@@ -27,7 +27,7 @@ const portfolioCards = [
         year: "Développement",
         title: "Transformer une intention en projet viable.",
         description: "Faisabilité, montage et coordination des acteurs pour faire avancer chaque étape avec cohérence.",
-        bg: "#263D4A",
+        bg: "#C6E3E6",
         img: "/assets/img/update-2/portfolio/home-2/portfolio-thumb-3.jpg",
     },
 ];

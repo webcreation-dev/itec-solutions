@@ -20,7 +20,7 @@ const ArchitectureFact = () => {
     const facts = [
         {
             icon: <ArchitectureProjectShapeIcon fillColor={factClassesName.shapeFill} />,
-            title: "Pôles d&apos;expertise",
+            title: "Pôles d’expertise",
             value: 3,
         },
         {

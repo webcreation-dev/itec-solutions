@@ -223,6 +223,12 @@
     fill: #263d4a !important;
 }
 
+/* Accueil : les réseaux sociaux restent lisibles sur les visuels du hero. */
+.al-hero-archi-social a,
+.al-hero-archi-social a i {
+    color: #fff !important;
+}
+
 /* La hauteur d'origine était donnée par le grand titre, désormais retiré. */
 .al-hero-archi-area {
     min-height: 955px;
@@ -254,10 +260,24 @@
 }
 
 /* Vision : rendre le bloc Direction lisible sans le surdimensionner sur mobile. */
+.itec-vision-page .itec-leadership-section {
+    padding-top: 80px !important;
+    padding-bottom: 55px !important;
+}
+
+.itec-vision-page .tp-about-process-area {
+    padding-top: 65px !important;
+}
+
 @media (max-width: 767px) {
-    .itec-leadership-section {
-        padding-top: 64px !important;
-        padding-bottom: 64px !important;
+    .itec-vision-page .itec-leadership-section {
+        padding-top: 56px !important;
+        padding-bottom: 44px !important;
+    }
+
+    .itec-vision-page .tp-about-process-area {
+        padding-top: 48px !important;
+        padding-bottom: 72px !important;
     }
 
     .itec-leadership-section .tp-team-sa-title {

@@ -40,7 +40,6 @@ const ArchitectureProjectItem: React.FC<ArchitectureProjectItemProps> = ({ item 
                             </div>
                         </SmartLink>
                     </div>
-                    <span>Los Angels, California</span>
                 </div>
             </div>
         </div>

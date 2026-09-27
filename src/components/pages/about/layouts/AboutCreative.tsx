@@ -10,7 +10,7 @@ import TeamDetailsGrid from "../../team/layouts/components/TeamDetailsGrid";
 
 const AboutCreative = () => {
     return (
-        <main>
+        <main className="itec-vision-page">
             <AboutCreativeHero />
             <AboutModernIntro compact />
             <TeamDetailsGrid variant="leadership" />

@@ -72,7 +72,7 @@ const TeamDetailsGrid = ({ variant = "team" }: TeamDetailsGridProps) => {
                                 <h2 className={`tp-team-sa-title mb-25 tp_fade_anim ${titleClass}`} data-delay=".3">Notre fondateur</h2>
                                 <div className="tp-service-2-para tp-techonolgy-para tp-team-sa-para tp_fade_anim" data-delay=".5">
                                     <p className={`fs-18 ${pClass}`}>
-                                        ITEC Solutions est porté par une direction engagée, qui fédère les expertises et accompagne chaque projet avec exigence, proximité et vision durable.
+                                        « J’ai créé ITEC Solutions avec la conviction qu’un projet réussi repose sur une expertise solide, une écoute constante et une exigence partagée. Notre ambition est de mettre ces savoir-faire au service des territoires, en France comme en Afrique de l’Ouest. »
                                     </p>
                                 </div>
                             </div>
@@ -86,11 +86,11 @@ const TeamDetailsGrid = ({ variant = "team" }: TeamDetailsGridProps) => {
                                     data-speedin="1"
                                     data-speedout="1"
                                 >
-                                    <img className="w-100" src="/assets/img/team/thumb.jpg" alt="Direction ITEC Solutions" />
+                                    <img className="w-100" src="/assets/img/team/thumb.jpg" alt="Bernard de Chacus" />
                                 </div>
                             </div>
                             <div className="tp-team-sa-content text-center mt-20">
-                                <h5 className={`tp-ff-heading fw-500 fs-25 mb-5 ${nameClass}`}>Direction ITEC Solutions</h5>
+                                <h5 className={`tp-ff-heading fw-500 fs-25 mb-5 ${nameClass}`}>Bernard de Chacus</h5>
                                 <span className={`fs-16 ${roleClass}`}>Fondateur · Direction générale</span>
                             </div>
                         </div>
