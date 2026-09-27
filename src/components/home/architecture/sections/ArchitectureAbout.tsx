@@ -41,7 +41,7 @@ const ArchitectureAbout = () => {
                             <div className="col-lg-12">
                                 <div className="al-about-archi-content-wrapper ml-200 mr-100 tp_fade_anim" data-delay=".4">
                                     <p className="al-about-archi-para mb-35">De l&apos;étude initiale à la livraison, nous accompagnons chaque projet avec méthode, rigueur et sens des usages. Notre ambition : créer des réalisations fiables, utiles et durables, adaptées à leur territoire.</p>
-                                    <SmartLink className="al-about-archi-link tp-left-right" href="/about-modern">En savoir plus{" "}
+                                    <SmartLink className="al-about-archi-link tp-left-right" href="/vision">En savoir plus{" "}
                                         <span className="tp-arrow-angle">
                                             <HeroArrowRightIcon />
                                         </span>

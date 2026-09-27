@@ -49,7 +49,7 @@ const ConstructionTextBlog = () => {
 
                                 <h4 className="cnt-blog-item-title">
                                     <SmartLink
-                                        href="/portfolio-col-3"
+                                        href="/references"
                                         className="underline-black"
                                     >
                                         Construire, développer <br />
@@ -61,7 +61,7 @@ const ConstructionTextBlog = () => {
                                 <div className="cnt-blog-item-btn">
                                     <SmartLink
                                         className="upd-btn-black-square cnt-btn-style style-2 btn-transparent"
-                                        href="/portfolio-col-3"
+                                        href="/references"
                                     >
                                         <i>
                                             <ArrowIconThree />

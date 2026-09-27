@@ -7,9 +7,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 const quickLinks = [
-    { label: "À propos", href: "/about-modern" },
-    { label: "Ingénierie", href: "/service-details" },
-    { label: "Références", href: "/portfolio-col-3" },
+    { label: "Vision", href: "/vision" },
+    { label: "Ingénierie", href: "/ingenierie" },
+    { label: "Références", href: "/references" },
     { label: "Actualités", href: "/blog-grid" },
     { label: "Contact", href: "/contact" },
 ];

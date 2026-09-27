@@ -76,7 +76,7 @@ const ConstructionHero = () => {
                             <div className="col-12">
                                 <div className="tp-breadcrumb-list">
                                     <ul>
-                                        <li><SmartLink href="/architecture">Accueil</SmartLink></li>
+                                        <li><SmartLink href="/">Accueil</SmartLink></li>
                                         <li><span></span></li>
                                         <li>Construction</li>
                                     </ul>

@@ -25,13 +25,13 @@ const ConstructionPortfolioCard: React.FC<portfolioItemProps> = ({ item }) => {
             <h4 className="cnt-portfolio-video-title">
                 <SmartLink
                     className="underline-black"
-                    href="/portfolio-col-3"
+                    href="/references"
                 >
                     {item.title}
                 </SmartLink>
             </h4>
             <div className="cnt-portfolio-video-thumb d-inline-block fix">
-                <SmartLink href="/portfolio-col-3">
+                <SmartLink href="/references">
                     <Image className="img-fluid" width={530} height={377} src={item.img} alt="portfolio" />
                 </SmartLink>
             </div>

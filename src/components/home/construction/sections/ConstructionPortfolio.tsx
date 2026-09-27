@@ -83,7 +83,7 @@ const ConstructionPortfolio = ({ variant = "projects" }: { variant?: "projects" 
                             >
                                 <SmartLink
                                     className="upd-btn-black-square cnt-btn-style style-2 btn-transparent"
-                                    href="/portfolio-col-3"
+                                    href="/references"
                                 >
                                     <i>
                                         <ArrowIconThree />

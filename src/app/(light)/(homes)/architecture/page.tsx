@@ -1,22 +1,7 @@
-import { ArchitectureAbout, ArchitectureBrand, ArchitectureChoose, ArchitectureFact, ArchitectureHero, ArchitecturePortfolio, ArchitectureService } from "@/components/home/architecture/sections";
-import { Metadata } from "next";
-
-export const metadata: Metadata = {
-    title: "ITEC Solutions | Ingénierie, Construction & Développement",
-};
+import { redirect } from "next/navigation";
 
 const page = () => {
-  return (
-    <main>
-      <ArchitectureHero />
-      <ArchitectureAbout />
-      <ArchitectureService/>
-      <ArchitectureFact/>
-      <ArchitecturePortfolio/>
-      <ArchitectureChoose/>
-      <ArchitectureBrand/>
-    </main>
-  );
+  redirect("/");
 };
 
 export default page;

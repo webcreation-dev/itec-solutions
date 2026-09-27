@@ -32,14 +32,14 @@ const ConstructionBlogItem: React.FC<ConstructionBlogItemProps> = ({ item, isLas
 
             <div className="cnt-blog-item-2-content">
                 <div className="cnt-blog-item-2-thumb">
-                    <SmartLink href="/portfolio-col-3">
+                    <SmartLink href="/references">
                         <Image className="img-fluid" width={351} height={186} src={item.blogImg} alt={item.title} />
                     </SmartLink>
                 </div>
 
                 <h4 className="cnt-blog-item-2-title">
                     <SmartLink
-                        href="/portfolio-col-3"
+                        href="/references"
                         className="underline-black"
                     >
                         {item.title}

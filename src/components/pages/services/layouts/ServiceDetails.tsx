@@ -201,7 +201,7 @@ const ServiceDetails = () => {
                                 <div className="tp-breadcrumb-list">
                                     <ul>
                                         <li>
-                                            <SmartLink href="/architecture">Accueil</SmartLink>
+                                            <SmartLink href="/">Accueil</SmartLink>
                                         </li>
                                         <li>
                                             <span></span>

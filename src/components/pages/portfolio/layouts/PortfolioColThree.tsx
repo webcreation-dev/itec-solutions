@@ -117,7 +117,7 @@ const PortfolioColThree = () => {
                     </div>
                 </div>
             </div>
-            <div className="tp-breadcrumb-wrap"><div className="container"><div className="row"><div className="col-12"><div className="tp-breadcrumb-list"><ul><li><SmartLink href="/architecture">Accueil</SmartLink></li><li><span></span></li><li>Références</li></ul></div></div></div></div></div>
+            <div className="tp-breadcrumb-wrap"><div className="container"><div className="row"><div className="col-12"><div className="tp-breadcrumb-list"><ul><li><SmartLink href="/">Accueil</SmartLink></li><li><span></span></li><li>Références</li></ul></div></div></div></div></div>
             <div className="tp-about-me-banner scale-up-img"><img className="img-cover scale-up" data-speed="0.4" src="/assets/img/breadcrumb/thumb-5.jpg" alt="Références ITEC Solutions" /></div>
             <div className="tp-portfolio-colum-spacing tp-portfolio-area" style={{ paddingTop: "40px", paddingBottom: "40px" }}><div className="container containers"><div className="row"><div className="col-12"><div className="tp-portfolio-inner-tab-wrap"><nav><div className="nav nav-tabs" id="nav-tab" role="tablist">{categories.map((tab) => <button key={tab.id} className={`nav-link ${activeTab === tab.id ? "active" : ""}`} type="button" onClick={() => setActiveTab(tab.id)}>{tab.name}</button>)}</div></nav></div></div></div></div></div>
             {/* tp-portfolio-area-end */}

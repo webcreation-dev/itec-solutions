@@ -2,12 +2,12 @@ interface MenuItem { title: string; href: string; subItems?: MenuItem[]; static?
 
 // Même navigation ITEC pour les menus mobiles et off-canvas.
 const menuItemsTwo: MenuItem[] = [
-    { title: "Accueil", href: "/architecture" },
-    { title: "Ingénierie", href: "/service-details" },
+    { title: "Accueil", href: "/" },
+    { title: "Ingénierie", href: "/ingenierie" },
     { title: "Construction", href: "/construction" },
-    { title: "Filiales", href: "/team" },
-    { title: "Références", href: "/portfolio-col-3" },
-    { title: "Vision", href: "/about-creative" },
+    { title: "Filiales", href: "/filiales" },
+    { title: "Références", href: "/references" },
+    { title: "Vision", href: "/vision" },
     { title: "Contact", href: "/contact" },
 ];
 
